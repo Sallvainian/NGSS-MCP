@@ -1,0 +1,5 @@
+project_name: NGSS-MCP
+language: typescript
+initial_prompt: |
+  NGSS MCP Server - Token-efficient standards lookup server for TeachFlow education module.
+  This is an MCP (Model Context Protocol) server providing NGSS standards data via optimized tools.
