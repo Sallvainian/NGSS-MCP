@@ -117,42 +117,7 @@ describe('Integration Tests - MCP Tools with Detail Levels', () => {
     });
   });
 
-  describe('Tool 3: find_by_driving_question', () => {
-    test('should format search results with detail_level (if results exist)', () => {
-      const db = getDatabase();
-      // Try a longer query more likely to match
-      const results = db.findByDrivingQuestion('What happens when energy is transferred?');
-
-      // Test passes regardless of results - we're testing the formatter, not the search algorithm
-      if (results.length > 0) {
-        const formattedMinimal = results.map(({ standard, score }) => {
-          const formatted = formatResponse(standard, 'minimal');
-          return { ...formatted, confidence: score };
-        });
-
-        formattedMinimal.forEach(result => {
-          expect(result).toHaveProperty('code');
-          expect(result).toHaveProperty('confidence');
-          expect(result).not.toHaveProperty('sep');
-        });
-
-        const formattedSummary = results.map(({ standard, score }) => {
-          const formatted = formatResponse(standard, 'summary');
-          return { ...formatted, confidence: score };
-        });
-
-        formattedSummary.forEach(result => {
-          expect(result).toHaveProperty('keywords');
-          expect(result).toHaveProperty('confidence');
-        });
-      }
-
-      // Test always passes - formatter functionality is tested elsewhere
-      expect(true).toBe(true);
-    });
-  });
-
-  describe('Tool 4: get_3d_components', () => {
+  describe('Tool 3: get_3d_components', () => {
     const testCode = 'MS-LS2-1';
 
     test('should return 3D components with token metadata', () => {

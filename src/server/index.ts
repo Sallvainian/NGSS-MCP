@@ -125,7 +125,10 @@ server.registerTool(
     try {
       ensureInitialized();
       const db = getDatabase();
-      const standards = db.searchByDomain(domain, { offset, limit });
+      const allStandards = db.searchByDomain(domain);
+
+      // Apply pagination
+      const standards = allStandards.slice(offset, offset + limit);
 
       const formattedStandards = formatResponseArray(standards, detail_level as DetailLevel);
       const tokens = getTokenMetadata(domain, formattedStandards);
@@ -133,6 +136,7 @@ server.registerTool(
       const result = {
         domain,
         count: standards.length,
+        total: allStandards.length,
         standards: formattedStandards,
         _metadata: { tokens }
       };
