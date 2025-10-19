@@ -111,7 +111,7 @@ server.registerTool(
     title: 'Search Standards by Domain',
     description: 'Find all NGSS standards in a specific science domain (Physical Science, Life Science, or Earth and Space Science)',
     inputSchema: {
-      domain: z.enum(['Physical Science', 'Life Science', 'Earth and Space Science', 'physical-science', 'life-science', 'earth-space-science'])
+      domain: z.enum(['Physical Science', 'Life Science', 'Earth and Space Science'])
         .describe('Science domain to filter by'),
       offset: z.number().int().min(0).default(0).describe('Number of results to skip (for pagination)'),
       limit: z.number().int().min(1).max(50).default(10).describe('Maximum number of results to return (1-50)'),
