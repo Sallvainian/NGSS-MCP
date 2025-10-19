@@ -33,6 +33,7 @@ coverage/
 
 # Temporary files
 *.tmp
+*.tgz
 .cache/
 
 # Development tools and artifacts (keep local, don't track)
