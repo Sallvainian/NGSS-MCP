@@ -1,5 +1,10 @@
 # NGSS MCP Server
 
+[![npm version](https://img.shields.io/npm/v/ngss-mcp.svg)](https://www.npmjs.com/package/ngss-mcp)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+
+**Status:** ✅ v1.0.0 Published to npm
+
 Model Context Protocol (MCP) server providing programmatic access to Next Generation Science Standards (NGSS) for middle school education.
 
 ## Features
@@ -10,7 +15,7 @@ Model Context Protocol (MCP) server providing programmatic access to Next Genera
 - **High-Performance Caching**: LRU cache with TTL for 60x faster repeated queries
 - **Performance Metrics**: Real-time query performance tracking and cache statistics
 - **Input Validation**: Comprehensive validation and sanitization for all query parameters
-- **5 Powerful Tools**: Comprehensive API for standard lookup, search, and analysis
+- **4 Powerful Tools**: Comprehensive API for standard lookup, search, and analysis
 - **MCP Protocol**: Native integration with Claude Desktop, Continue, and other MCP-compatible AI assistants
 
 ## Database Statistics
@@ -20,7 +25,7 @@ Model Context Protocol (MCP) server providing programmatic access to Next Genera
 - **Life Science**: 21 standards
 - **Earth & Space Science**: 15 standards
 - **Database Size**: 80 KB (optimized)
-- **Index Sizes**: 55 codes, 3 domains, 29 question keywords, 343 full-text keywords
+- **Index Sizes**: 55 codes, 3 domains, 343 full-text keywords
 
 ## Performance
 
@@ -29,7 +34,6 @@ Model Context Protocol (MCP) server providing programmatic access to Next Genera
 - **TTL Expiration**: 5-minute Time-To-Live for cached results
 - **Cache Hit Rate**: 79-90% in typical usage patterns
 - **Speed Improvement**: 60x faster average for cached queries
-  - `findByDrivingQuestion`: 107x speedup (0.35ms → 0.003ms)
   - `searchStandards`: 64x speedup (0.16ms → 0.002ms)
   - Domain-filtered search: 10x speedup (0.04ms → 0.004ms)
 
@@ -80,6 +84,26 @@ Error: Query must be at least 1 character
 - Input sanitization for all text fields
 
 ## Installation
+
+### Install from npm
+
+Install via npm:
+
+```bash
+npm install ngss-mcp
+```
+
+Or with a specific version:
+
+```bash
+npm install ngss-mcp@1.0.0
+```
+
+Or install globally:
+
+```bash
+npm install -g ngss-mcp
+```
 
 ### Prerequisites
 - Node.js 18+ or Bun runtime
@@ -155,7 +179,6 @@ Retrieve a specific NGSS standard by its code identifier.
     "name": "Patterns can be used to identify cause and effect relationships.",
     "description": "Crosscutting Concepts..."
   },
-  "driving_questions": ["What do we know about structure and properties of matter?"],
   "keywords": ["develop", "model", "describe", "atomic", "composition", "molecules"],
   "lesson_scope": {
     "key_concepts": [...],
@@ -202,46 +225,7 @@ Find all NGSS standards in a specific science domain.
 }
 ```
 
-### 3. `find_by_driving_question`
-
-Search for standards using keywords from driving questions. Returns standards ranked by relevance.
-
-**Input**:
-```json
-{
-  "query": "energy transfer heat",
-  "limit": 10
-}
-```
-
-**Parameters**:
-- `query` (required): Search query with keywords (min 3 characters)
-- `limit` (optional): Maximum results to return (default: 10, must be positive integer)
-
-**Output**:
-```json
-{
-  "query": "energy transfer heat",
-  "totalMatches": 5,
-  "returned": 5,
-  "results": [
-    {
-      "code": "MS-PS3-3",
-      "relevance": 0.75,
-      "topic": "Energy",
-      "driving_questions": ["How is energy transferred?"],
-      "performance_expectation": "Apply scientific principles to design..."
-    }
-  ]
-}
-```
-
-**Relevance Scoring**:
-- Score = (keyword matches) / (query keywords)
-- Results sorted by descending relevance
-- Range: 0.0 to 1.0
-
-### 4. `get_3d_components`
+### 3. `get_3d_components`
 
 Extract the three-dimensional learning components for a specific standard.
 
@@ -281,7 +265,7 @@ Extract the three-dimensional learning components for a specific standard.
 - **DCI**: Disciplinary Core Ideas - *Key concepts to understand*
 - **CCC**: Crosscutting Concepts - *Themes that connect across disciplines*
 
-### 5. `search_standards`
+### 4. `search_standards`
 
 Perform full-text search across all NGSS standard content.
 
@@ -322,7 +306,6 @@ Perform full-text search across all NGSS standard content.
 - Performance expectations
 - Topics
 - Keywords
-- Driving questions
 - All 3D components (SEP, DCI, CCC)
 
 ## Error Handling
@@ -349,7 +332,7 @@ All tools return structured error responses with `isError: true`:
 NGSS-MCP/
 ├── src/
 │   ├── server/
-│   │   ├── index.ts              # MCP server with 5 tools
+│   │   ├── index.ts              # MCP server with 4 tools
 │   │   ├── database.ts           # Multi-index database with caching
 │   │   ├── query-cache.ts        # LRU cache with TTL and metrics
 │   │   └── query-validation.ts   # Input validation and sanitization
@@ -393,7 +376,7 @@ bun run scripts/test-cache-performance.ts
 ```
 
 **Test Coverage**:
-- ✅ All 5 database query methods
+- ✅ All 4 database query methods
 - ✅ Input validation and error handling
 - ✅ Cache effectiveness (60x speedup verification)
 - ✅ Performance stress testing (100+ queries)
@@ -406,7 +389,6 @@ bun run scripts/test-cache-performance.ts
 **Database Module** (`database.ts`):
 - **Code Index**: `Map<string, Standard>` - O(1) lookups by standard code
 - **Domain Index**: `Map<string, Standard[]>` - Grouped by science domain
-- **Question Keyword Index**: `Map<string, Set<string>>` - Driving question search
 - **Full-Text Index**: `Map<string, Set<string>>` - Comprehensive search
 - **Query Cache**: LRU cache with TTL for search result caching
 - **Performance Metrics**: Real-time query statistics and timing
@@ -441,7 +423,6 @@ bun run scripts/test-cache-performance.ts
 - ✅ **Valid Standard Codes**: All codes match pattern `MS-(PS|LS|ESS)\d+-\d+`
 - ✅ **Clean Text**: No embedded newlines or control characters
 - ✅ **Complete Topics**: Full topic names (e.g., "Structure and Properties of Matter")
-- ✅ **Natural Grammar**: Grammatically correct driving questions
 
 ## Source Data
 

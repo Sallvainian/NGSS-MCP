@@ -1,7 +1,7 @@
 {
   "name": "ngss-mcp",
   "version": "1.0.0",
-  "description": "MCP server providing access to Next Generation Science Standards (NGSS) for middle school",
+  "description": "MCP server providing token-efficient access to NGSS standards data",
   "main": "dist/server/index.js",
   "bin": {
     "ngss-mcp": "./dist/server/index.js"
@@ -17,9 +17,27 @@
     "build-data": "bun scripts/build-data.ts",
     "test": "bun scripts/test-pdf-extraction.ts"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ngss",
+    "education",
+    "standards",
+    "science",
+    "teachflow",
+    "3d-framework",
+    "token-efficient"
+  ],
+  "author": "Sallvain",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sallvainian/NGSS-MCP.git"
+  },
+  "homepage": "https://github.com/Sallvainian/NGSS-MCP#readme",
+  "bugs": {
+    "url": "https://github.com/Sallvainian/NGSS-MCP/issues"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.20.0",
     "fast-levenshtein": "^3.0.0",
