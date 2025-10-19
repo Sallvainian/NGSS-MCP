@@ -35,7 +35,7 @@ coverage/
 *.tmp
 .cache/
 
-# Development tools and artifacts
+# Development tools and artifacts (keep local, don't track)
 .serena/
 bmad/
 .claude/
@@ -43,7 +43,7 @@ bmad/
 .gemini/
 .github/chatmodes/
 
-# Internal documentation
+# Internal documentation (keep local, don't track)
 docs/stories/
 docs/*-proposal*.md
 docs/PRD.md
@@ -56,7 +56,7 @@ docs/npm-publishing-readiness.md
 docs/*.pdf
 claudedocs/
 
-# Root-level planning documents
+# Root-level planning documents (keep local, don't track)
 Epics.md
 PRD.md
 EXTRACTION-RESULTS.md
