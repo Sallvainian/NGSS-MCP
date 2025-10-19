@@ -141,6 +141,34 @@ export const DOMAIN_MAP: Record<DomainCode, Domain> = {
   ESS: 'Earth and Space Science'
 };
 
+// ===== Detail Level Types =====
+
+export type DetailLevel = 'minimal' | 'summary' | 'full';
+
+// ===== Pagination Types =====
+
+export interface PaginationMetadata {
+  total: number;      // Total matching results before pagination
+  offset: number;     // Current offset (echo from request)
+  limit: number;      // Current limit (echo from request)
+  hasMore: boolean;   // True if more results available beyond current page
+}
+
+export interface MinimalStandard {
+  code: string;
+  topic: string;
+  performance_expectation: string; // truncated to 50 chars
+}
+
+export interface SummaryStandard {
+  code: string;
+  topic: string;
+  performance_expectation: string; // truncated to 150 chars
+  keywords: string[]; // top 3 only
+}
+
+// Full standard is the existing Standard interface
+
 // ===== Regex Patterns =====
 
 export const PATTERNS = {

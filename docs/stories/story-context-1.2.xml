@@ -1,0 +1,207 @@
+<story-context id="bmad/bmm/workflows/4-implementation/story-context/template" v="1.0">
+  <metadata>
+    <epicId>1</epicId>
+    <storyId>1.2</storyId>
+    <title>Pagination Support</title>
+    <status>Draft</status>
+    <generatedAt>2025-10-19</generatedAt>
+    <generator>BMAD Story Context Workflow</generator>
+    <sourceStoryPath>docs/stories/story-1.2.md</sourceStoryPath>
+  </metadata>
+
+  <story>
+    <asA>TeachFlow agent</asA>
+    <iWant>paginated search results</iWant>
+    <soThat>I can efficiently handle large result sets without token overflow and navigate through comprehensive search results in manageable chunks</soThat>
+    <tasks>
+      - Task 1: Add pagination parameters to search tool schemas (offset, limit)
+      - Task 2: Update database search methods with pagination logic
+      - Task 3: Create pagination metadata module
+      - Task 4: Integrate pagination into tool handlers
+      - Task 5: Create unit and integration tests
+      - Task 6: Validate pagination efficiency
+    </tasks>
+  </story>
+
+  <acceptanceCriteria>
+    1. Add `offset` and `limit` parameters to search tools (search_by_domain, find_by_driving_question, search_standards)
+    2. Default limit: 10 results (current behavior)
+    3. Maximum limit: 50 results per query
+    4. Return pagination metadata: { total, offset, limit, hasMore }
+    5. Cursor-based pagination for consistency across pages
+    6. Validation: Can paginate through 100+ results efficiently
+  </acceptanceCriteria>
+
+  <artifacts>
+    <docs>
+      <doc>
+        <path>docs/PRD.md</path>
+        <title>NGSS-MCP Optimization Product Requirements Document</title>
+        <section>FR-1.3: Pagination Support</section>
+        <snippet>Implement pagination for multi-result queries to prevent token overflow. Add offset and limit parameters to search tools with cursor-based pagination for large result sets.</snippet>
+      </doc>
+      <doc>
+        <path>docs/Epics.md</path>
+        <title>Epic Breakdown</title>
+        <section>E1-S2: Pagination Support (3 pts)</section>
+        <snippet>User Story: As a TeachFlow agent, I want paginated search results so that I can efficiently handle large result sets without token overflow. Includes pagination metadata, stable sorting, and validation through 100+ results.</snippet>
+      </doc>
+      <doc>
+        <path>docs/stories/story-1.1.md</path>
+        <title>Story 1.1: Response Detail Levels</title>
+        <section>Implementation Patterns</section>
+        <snippet>Response metadata structure includes _metadata.tokens field. Backward compatibility maintained through optional parameters with defaults. All 5 tools updated consistently with Zod validation.</snippet>
+      </doc>
+    </docs>
+    <code>
+      <artifact>
+        <path>src/server/index.ts</path>
+        <kind>MCP server</kind>
+        <symbol>server.registerTool('search_by_domain')</symbol>
+        <lines>N/A</lines>
+        <reason>Tool registration requiring offset/limit parameters and pagination metadata integration</reason>
+      </artifact>
+      <artifact>
+        <path>src/server/index.ts</path>
+        <kind>MCP server</kind>
+        <symbol>server.registerTool('find_by_driving_question')</symbol>
+        <lines>N/A</lines>
+        <reason>Fuzzy search tool needing pagination for large result sets</reason>
+      </artifact>
+      <artifact>
+        <path>src/server/index.ts</path>
+        <kind>MCP server</kind>
+        <symbol>server.registerTool('search_standards')</symbol>
+        <lines>N/A</lines>
+        <reason>Full-text search tool requiring pagination support</reason>
+      </artifact>
+      <artifact>
+        <path>src/server/database.ts</path>
+        <kind>database</kind>
+        <symbol>NGSSDatabase.searchByDomain()</symbol>
+        <lines>N/A</lines>
+        <reason>Search method requiring pagination logic implementation</reason>
+      </artifact>
+      <artifact>
+        <path>src/server/database.ts</path>
+        <kind>database</kind>
+        <symbol>NGSSDatabase.findByDrivingQuestion()</symbol>
+        <lines>N/A</lines>
+        <reason>Fuzzy match method needing stable sorting and pagination</reason>
+      </artifact>
+      <artifact>
+        <path>src/server/database.ts</path>
+        <kind>database</kind>
+        <symbol>NGSSDatabase.searchStandards()</symbol>
+        <lines>N/A</lines>
+        <reason>Full-text search method requiring pagination implementation</reason>
+      </artifact>
+      <artifact>
+        <path>src/server/response-formatter.ts</path>
+        <kind>formatter</kind>
+        <symbol>formatResponse()</symbol>
+        <lines>N/A</lines>
+        <reason>Existing response formatting pattern - pagination metadata should follow same structure as _metadata.tokens</reason>
+      </artifact>
+      <artifact>
+        <path>src/types/ngss.ts</path>
+        <kind>types</kind>
+        <symbol>DetailLevel</symbol>
+        <lines>N/A</lines>
+        <reason>Type definitions file - needs PaginationMetadata interface addition</reason>
+      </artifact>
+    </code>
+    <dependencies>
+      <node>
+        <package name="@modelcontextprotocol/sdk" version="^1.20.0" />
+        <package name="zod" version="^3.25.76" />
+        <package name="fast-levenshtein" version="^3.0.0" />
+        <package name="typescript" version="^5.9.3" dev="true" />
+      </node>
+    </dependencies>
+  </artifacts>
+
+  <constraints>
+    - Backward compatibility: Default parameters (offset=0, limit=10) must maintain current behavior
+    - All new parameters must be optional with sensible defaults
+    - Existing integrations must continue working without modification
+    - Stable sorting: Search results must maintain consistent ordering across pagination requests to prevent duplicate/missing results
+    - Maximum limit enforcement: Hard cap at 50 results per query to prevent resource exhaustion
+    - Pagination works seamlessly with detail_level parameter from Story 1.1
+    - Response metadata structure: Use _pagination field alongside existing _metadata.tokens pattern
+    - Zod validation: All pagination parameters must have proper type and range validation (offset ≥ 0, 1 ≤ limit ≤ 50)
+    - Non-search tools unchanged: get_standard and get_3d_components are single-result tools requiring no pagination
+  </constraints>
+
+  <interfaces>
+    <interface>
+      <name>Pagination Parameters</name>
+      <kind>Tool schema parameters</kind>
+      <signature>
+        offset?: number;  // default: 0, min: 0
+        limit?: number;   // default: 10, min: 1, max: 50
+      </signature>
+      <path>src/server/index.ts</path>
+    </interface>
+    <interface>
+      <name>PaginationMetadata</name>
+      <kind>Response interface</kind>
+      <signature>
+        {
+          total: number;      // Total matching results before pagination
+          offset: number;     // Current offset (echo from request)
+          limit: number;      // Current limit (echo from request)
+          hasMore: boolean;   // True if more results available
+        }
+      </signature>
+      <path>src/types/ngss.ts</path>
+    </interface>
+    <interface>
+      <name>Response Structure with Pagination</name>
+      <kind>Tool response format</kind>
+      <signature>
+        {
+          results: Standard[],
+          _metadata: {
+            tokens: { input: number, output: number }
+          },
+          _pagination: {
+            total: number,
+            offset: number,
+            limit: number,
+            hasMore: boolean
+          }
+        }
+      </signature>
+      <path>src/server/index.ts</path>
+    </interface>
+  </interfaces>
+
+  <tests>
+    <standards>
+      Testing framework: Bun test (based on package.json test scripts and existing .test.ts files).
+      Pattern: Co-located test files (*.test.ts) alongside source files in src/server/.
+      Existing test suites: response-formatter.test.ts (17 tests), token-counter.test.ts (11 tests), integration.test.ts (13 tests).
+      Testing approach: Unit tests for pagination utilities, integration tests for tool handlers with pagination, edge case tests for boundary conditions.
+    </standards>
+    <locations>
+      - src/server/**/*.test.ts (co-located with source)
+      - Anticipated new files: src/server/pagination.test.ts, updated integration.test.ts
+    </locations>
+    <ideas>
+      - AC #1,#2: Test default pagination (offset=0, limit=10) returns first 10 results
+      - AC #1,#2: Test custom pagination (offset=10, limit=20) returns correct slice
+      - AC #3: Test maximum limit enforcement (limit=100 → capped at 50)
+      - AC #3: Test invalid limit values (negative, zero) rejected by Zod validation
+      - AC #4: Test pagination metadata accuracy (total count, hasMore flag calculations)
+      - AC #4: Test hasMore=true when more results exist, false when at end
+      - AC #5: Test stable pagination - same query with different offsets returns consistent, non-overlapping results
+      - AC #5: Test result ordering preserved across pagination pages
+      - AC #6: Integration test - paginate through 100+ standards efficiently, verify no duplicates/gaps
+      - Edge case: offset > total results returns empty array with correct metadata
+      - Edge case: offset + limit > total returns partial last page
+      - Backward compatibility: No pagination params provided → returns first 10 results (current behavior)
+      - Integration: Pagination + detail_level=summary works correctly (token-efficient batched results)
+    </ideas>
+  </tests>
+</story-context>

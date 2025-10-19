@@ -8,6 +8,9 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { z } from 'zod';
 import { initializeDatabase, getDatabase } from './database.js';
+import { formatResponse, formatResponseArray } from './response-formatter.js';
+import { getTokenMetadata } from './token-counter.js';
+import type { DetailLevel } from '../types/ngss.js';
 
 // Initialize server
 const server = new McpServer({
@@ -45,10 +48,14 @@ server.registerTool(
     inputSchema: {
       code: z.string()
         .regex(/^MS-(PS|LS|ESS)\d+-\d+$/)
-        .describe('NGSS standard code (format: MS-{PS|LS|ESS}{number}-{number})')
+        .describe('NGSS standard code (format: MS-{PS|LS|ESS}{number}-{number})'),
+      detail_level: z.enum(['minimal', 'summary', 'full'])
+        .optional()
+        .default('full')
+        .describe('Response detail level: minimal (code, topic, PE 50 chars), summary (+ keywords top 3, PE 150 chars), full (complete standard)')
     }
   },
-  async ({ code }) => {
+  async ({ code, detail_level }) => {
     try {
       ensureInitialized();
       const db = getDatabase();
@@ -68,10 +75,16 @@ server.registerTool(
         };
       }
 
+      const formatted = formatResponse(standard, detail_level as DetailLevel);
+      const tokens = getTokenMetadata(code, formatted);
+
       return {
         content: [{
           type: 'text',
-          text: JSON.stringify(standard, null, 2)
+          text: JSON.stringify({
+            ...formatted,
+            _metadata: { tokens }
+          }, null, 2)
         }]
       };
     } catch (error) {
@@ -99,23 +112,29 @@ server.registerTool(
     description: 'Find all NGSS standards in a specific science domain (Physical Science, Life Science, or Earth and Space Science)',
     inputSchema: {
       domain: z.enum(['Physical Science', 'Life Science', 'Earth and Space Science', 'physical-science', 'life-science', 'earth-space-science'])
-        .describe('Science domain to filter by')
+        .describe('Science domain to filter by'),
+      offset: z.number().int().min(0).default(0).describe('Number of results to skip (for pagination)'),
+      limit: z.number().int().min(1).max(50).default(10).describe('Maximum number of results to return (1-50)'),
+      detail_level: z.enum(['minimal', 'summary', 'full'])
+        .optional()
+        .default('full')
+        .describe('Response detail level: minimal (code, topic, PE 50 chars), summary (+ keywords top 3, PE 150 chars), full (complete standard)')
     }
   },
-  async ({ domain }) => {
+  async ({ domain, detail_level }) => {
     try {
       ensureInitialized();
       const db = getDatabase();
       const standards = db.searchByDomain(domain);
 
+      const formattedStandards = formatResponseArray(standards, detail_level as DetailLevel);
+      const tokens = getTokenMetadata(domain, formattedStandards);
+
       const result = {
         domain,
         count: standards.length,
-        standards: standards.map(s => ({
-          code: s.code,
-          topic: s.topic,
-          performance_expectation: s.performance_expectation.slice(0, 100) + (s.performance_expectation.length > 100 ? '...' : '')
-        }))
+        standards: formattedStandards,
+        _metadata: { tokens }
       };
 
       return {
@@ -141,63 +160,7 @@ server.registerTool(
   }
 );
 
-// Tool 3: find_by_driving_question - Fuzzy search by driving questions
-server.registerTool(
-  'find_by_driving_question',
-  {
-    title: 'Find Standards by Driving Question',
-    description: 'Fuzzy search for NGSS standards using driving questions with Levenshtein distance matching. Handles typos, word order variations, and partial matches. Returns matches with confidence >= 0.7.',
-    inputSchema: {
-      query: z.string().min(3).describe('Driving question query (handles typos and word order variations)'),
-      limit: z.number().int().positive().default(10).describe('Maximum number of results to return')
-    }
-  },
-  async ({ query, limit }) => {
-    try {
-      ensureInitialized();
-      const db = getDatabase();
-      const results = db.findByDrivingQuestion(query);
-
-      const limitedResults = results.slice(0, limit);
-
-      const response = {
-        query,
-        totalMatches: results.length,
-        returned: limitedResults.length,
-        results: limitedResults.map(({ standard, score, matched_question }) => ({
-          code: standard.code,
-          confidence: Math.round(score * 100) / 100,
-          matched_question: matched_question || null,
-          topic: standard.topic,
-          driving_questions: standard.driving_questions,
-          performance_expectation: standard.performance_expectation.slice(0, 150) + (standard.performance_expectation.length > 150 ? '...' : '')
-        }))
-      };
-
-      return {
-        content: [{
-          type: 'text',
-          text: JSON.stringify(response, null, 2)
-        }]
-      };
-    } catch (error) {
-      console.error('find_by_driving_question error:', error);
-      return {
-        content: [{
-          type: 'text',
-          text: JSON.stringify({
-            error: 'Internal Error',
-            message: error instanceof Error ? error.message : String(error),
-            code: 'INTERNAL_ERROR'
-          }, null, 2)
-        }],
-        isError: true
-      };
-    }
-  }
-);
-
-// Tool 4: get_3d_components - Extract 3D framework components
+// Tool 3: get_3d_components - Extract 3D framework components
 server.registerTool(
   'get_3d_components',
   {
@@ -206,10 +169,14 @@ server.registerTool(
     inputSchema: {
       code: z.string()
         .regex(/^MS-(PS|LS|ESS)\d+-\d+$/)
-        .describe('NGSS standard code')
+        .describe('NGSS standard code'),
+      detail_level: z.enum(['minimal', 'summary', 'full'])
+        .optional()
+        .default('full')
+        .describe('Response detail level: minimal (code, topic, PE 50 chars), summary (+ keywords top 3, PE 150 chars), full (complete standard)')
     }
   },
-  async ({ code }) => {
+  async ({ code, detail_level }) => {
     try {
       ensureInitialized();
       const db = getDatabase();
@@ -250,10 +217,15 @@ server.registerTool(
         }
       };
 
+      const tokens = getTokenMetadata(code, result);
+
       return {
         content: [{
           type: 'text',
-          text: JSON.stringify(result, null, 2)
+          text: JSON.stringify({
+            ...result,
+            _metadata: { tokens }
+          }, null, 2)
         }]
       };
     } catch (error) {
@@ -282,10 +254,14 @@ server.registerTool(
     inputSchema: {
       query: z.string().min(2).describe('Search query text'),
       domain: z.enum(['Physical Science', 'Life Science', 'Earth and Space Science']).optional().describe('Optional: filter by domain'),
-      limit: z.number().int().positive().default(10).describe('Maximum number of results to return')
+      limit: z.number().int().positive().default(10).describe('Maximum number of results to return'),
+      detail_level: z.enum(['minimal', 'summary', 'full'])
+        .optional()
+        .default('full')
+        .describe('Response detail level: minimal (code, topic, PE 50 chars), summary (+ keywords top 3, PE 150 chars), full (complete standard)')
     }
   },
-  async ({ query, domain, limit }) => {
+  async ({ query, domain, limit, detail_level }) => {
     try {
       ensureInitialized();
       const db = getDatabase();
@@ -295,18 +271,22 @@ server.registerTool(
       }
       const results = db.searchStandards(query, options);
 
+      const formattedResults = results.map(({ standard, score }) => {
+        const formatted = formatResponse(standard, detail_level as DetailLevel);
+        return {
+          ...formatted,
+          relevance: Math.round(score * 100) / 100
+        };
+      });
+
+      const tokens = getTokenMetadata(query, formattedResults);
+
       const response = {
         query,
         domain: domain || 'all',
         totalMatches: results.length,
-        results: results.map(({ standard, score }) => ({
-          code: standard.code,
-          domain: standard.domain,
-          topic: standard.topic,
-          relevance: Math.round(score * 100) / 100,
-          performance_expectation: standard.performance_expectation.slice(0, 150) + (standard.performance_expectation.length > 150 ? '...' : ''),
-          keywords: standard.keywords.slice(0, 5)
-        }))
+        results: formattedResults,
+        _metadata: { tokens }
       };
 
       return {
@@ -368,7 +348,7 @@ async function main() {
 
   await server.connect(transport);
   console.error('🚀 NGSS MCP Server running on stdio');
-  console.error('📚 Available tools: get_standard, search_by_domain, find_by_driving_question, get_3d_components, search_standards');
+  console.error('📚 Available tools: get_standard, search_by_domain, get_3d_components, search_standards');
 }
 
 main().catch((error) => {

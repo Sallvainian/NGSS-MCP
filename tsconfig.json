@@ -42,5 +42,5 @@
 
     "moduleResolution": "nodenext",
   },
-  "exclude": ["scripts", "dist", "node_modules"]
+  "exclude": ["scripts", "dist", "node_modules", "**/*.test.ts"]
 }
