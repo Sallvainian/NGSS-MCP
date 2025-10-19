@@ -121,11 +121,11 @@ server.registerTool(
         .describe('Response detail level: minimal (code, topic, PE 50 chars), summary (+ keywords top 3, PE 150 chars), full (complete standard)')
     }
   },
-  async ({ domain, detail_level }) => {
+  async ({ domain, offset, limit, detail_level }) => {
     try {
       ensureInitialized();
       const db = getDatabase();
-      const standards = db.searchByDomain(domain);
+      const standards = db.searchByDomain(domain, { offset, limit });
 
       const formattedStandards = formatResponseArray(standards, detail_level as DetailLevel);
       const tokens = getTokenMetadata(domain, formattedStandards);
@@ -250,7 +250,7 @@ server.registerTool(
   'search_standards',
   {
     title: 'Search Standards (Full-Text)',
-    description: 'Perform full-text search across all NGSS standard content including performance expectations, topics, keywords, and driving questions',
+    description: 'Perform full-text search across all NGSS standard content including performance expectations, topics, and keywords (e.g., "energy transfer", "ecosystems", "chemical reactions", "climate change")',
     inputSchema: {
       query: z.string().min(2).describe('Search query text'),
       domain: z.enum(['Physical Science', 'Life Science', 'Earth and Space Science']).optional().describe('Optional: filter by domain'),
