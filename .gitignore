@@ -35,5 +35,30 @@ coverage/
 *.tmp
 .cache/
 
-# Serena session data
-.serena/backups/
+# Development tools and artifacts
+.serena/
+bmad/
+.claude/
+.cursor/
+.gemini/
+.github/chatmodes/
+
+# Internal documentation
+docs/stories/
+docs/*-proposal*.md
+docs/PRD.md
+docs/Epics.md
+docs/bmm-workflow-status.md
+docs/v1.0-pm-handoff-package.md
+docs/v1.0-publication-plan.md
+docs/technical-decisions-template.md
+docs/npm-publishing-readiness.md
+docs/*.pdf
+claudedocs/
+
+# Root-level planning documents
+Epics.md
+PRD.md
+EXTRACTION-RESULTS.md
+SERVER-IMPLEMENTATION.md
+tech-spec.md
