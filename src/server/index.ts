@@ -165,11 +165,11 @@ server.registerTool(
   'get_3d_components',
   {
     title: 'Get 3D Framework Components',
-    description: 'Extract the three-dimensional learning components (SEP: Science and Engineering Practices, DCI: Disciplinary Core Ideas, CCC: Crosscutting Concepts) for a specific standard',
+    description: 'Extract the three-dimensional learning components (SEP: Science and Engineering Practices, DCI: Disciplinary Core Ideas, CCC: Crosscutting Concepts) for a specific standard (e.g., MS-PS1-1, MS-LS2-3, MS-ESS3-1)',
     inputSchema: {
       code: z.string()
         .regex(/^MS-(PS|LS|ESS)\d+-\d+$/)
-        .describe('NGSS standard code'),
+        .describe('NGSS standard code (format: MS-{PS|LS|ESS}{number}-{number})'),
       detail_level: z.enum(['minimal', 'summary', 'full'])
         .optional()
         .default('full')
