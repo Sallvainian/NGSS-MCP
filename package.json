@@ -4,7 +4,7 @@
   "description": "MCP server providing token-efficient access to NGSS standards data",
   "main": "dist/server/index.js",
   "bin": {
-    "ngss-mcp": "./dist/server/index.js"
+    "ngss-mcp": "dist/server/index.js"
   },
   "files": [
     "dist/",
@@ -38,7 +38,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Sallvainian/NGSS-MCP.git"
+    "url": "git+https://github.com/Sallvainian/NGSS-MCP.git"
   },
   "homepage": "https://github.com/Sallvainian/NGSS-MCP#readme",
   "bugs": {
