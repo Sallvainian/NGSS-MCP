@@ -15,7 +15,6 @@ interface Standard {
   sep: { code: string; name: string; description: string };
   dci: { code: string; name: string; description: string };
   ccc: { code: string; name: string; description: string };
-  driving_questions: string[];
   keywords: string[];
   lesson_scope: any;
 }
@@ -121,11 +120,9 @@ function main() {
 
   const avgPELength = db.standards.reduce((sum, s) => sum + s.performance_expectation.length, 0) / db.standards.length;
   const avgKeywords = db.standards.reduce((sum, s) => sum + s.keywords.length, 0) / db.standards.length;
-  const avgQuestions = db.standards.reduce((sum, s) => sum + s.driving_questions.length, 0) / db.standards.length;
 
   console.log(`Average PE length: ${Math.round(avgPELength)} characters`);
   console.log(`Average keywords per standard: ${avgKeywords.toFixed(1)}`);
-  console.log(`Average driving questions: ${avgQuestions.toFixed(1)}`);
 
   // File size
   const dbSize = readFileSync(dbPath).length;

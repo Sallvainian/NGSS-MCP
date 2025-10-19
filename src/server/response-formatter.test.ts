@@ -28,11 +28,6 @@ const sampleStandard: Standard = {
     name: 'Scale, Proportion, and Quantity',
     description: 'Time, space, and energy phenomena can be observed at various scales using models to study systems that are too large or too small.'
   },
-  driving_questions: [
-    'How do atoms combine to form molecules?',
-    'What determines the structure of molecules?',
-    'How can we model molecular structures?'
-  ],
   keywords: ['atoms', 'molecules', 'molecular structure', 'chemical composition', 'models', 'atomic composition', 'simple molecules', 'extended structures'],
   lesson_scope: {
     key_concepts: [

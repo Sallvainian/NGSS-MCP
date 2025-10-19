@@ -85,54 +85,54 @@ Error: Query must be at least 1 character
 
 ## Installation
 
-### Prerequisites
-- Node.js 18+ or Bun runtime
-- npm package manager
+### Install from npm
 
-### MCP Server Installation
+Install via npm:
 
-Add to your MCP client configuration (e.g., Claude Desktop):
-
-**Option 1: Using npx (Recommended - No Installation Required)**
-```json
-{
-  "mcpServers": {
-    "ngss": {
-      "command": "npx",
-      "args": ["ngss-mcp"]
-    }
-  }
-}
-```
-
-**Option 2: Global Installation**
-```bash
-npm install -g ngss-mcp
-```
-
-Then configure:
-```json
-{
-  "mcpServers": {
-    "ngss": {
-      "command": "ngss-mcp"
-    }
-  }
-}
-```
-
-**Option 3: Local Installation (for development)**
 ```bash
 npm install ngss-mcp
 ```
 
-Then reference the installed package:
+Or with a specific version:
+
+```bash
+npm install ngss-mcp@1.0.0
+```
+
+Or install globally:
+
+```bash
+npm install -g ngss-mcp
+```
+
+### Prerequisites
+- Node.js 18+ or Bun runtime
+- npm or bun package manager
+
+### Install from Source
+
+```bash
+# Clone repository
+git clone <repository-url>
+cd NGSS-MCP
+
+# Install dependencies
+bun install  # or npm install
+
+# Build TypeScript
+bun run build  # or npm run build
+```
+
+### Install as MCP Server
+
+For Claude Desktop or other MCP clients, add to your MCP configuration:
+
 ```json
 {
   "mcpServers": {
     "ngss": {
       "command": "node",
-      "args": ["./node_modules/ngss-mcp/dist/server/index.js"]
+      "args": ["/absolute/path/to/NGSS-MCP/dist/server/index.js"]
     }
   }
 }
@@ -325,25 +325,6 @@ All tools return structured error responses with `isError: true`:
 - `INTERNAL_ERROR`: Server error (database not initialized, parsing error, etc.)
 
 ## Development
-
-### Install from Source
-
-For development or contributing:
-
-```bash
-# Clone repository
-git clone https://github.com/Sallvainian/NGSS-MCP.git
-cd NGSS-MCP
-
-# Install dependencies
-npm install  # or bun install
-
-# Build TypeScript
-npm run build  # or bun run build
-
-# Run in development mode
-npm run dev  # or bun run dev
-```
 
 ### Project Structure
 

@@ -44,7 +44,6 @@ export interface Standard {
   sep: SEP;
   dci: DCI;
   ccc: CCC;
-  driving_questions: string[];
   keywords: string[];
   lesson_scope: LessonScope;
 }
@@ -92,7 +91,6 @@ export const StandardSchema = z.object({
   sep: SEPSchema,
   dci: DCISchema,
   ccc: CCCSchema,
-  driving_questions: z.array(z.string()).min(1),
   keywords: z.array(z.string()),
   lesson_scope: LessonScopeSchema
 });
@@ -145,15 +143,6 @@ export const DOMAIN_MAP: Record<DomainCode, Domain> = {
 
 export type DetailLevel = 'minimal' | 'summary' | 'full';
 
-// ===== Pagination Types =====
-
-export interface PaginationMetadata {
-  total: number;      // Total matching results before pagination
-  offset: number;     // Current offset (echo from request)
-  limit: number;      // Current limit (echo from request)
-  hasMore: boolean;   // True if more results available beyond current page
-}
-
 export interface MinimalStandard {
   code: string;
   topic: string;
@@ -168,6 +157,15 @@ export interface SummaryStandard {
 }
 
 // Full standard is the existing Standard interface
+
+// ===== Pagination Types =====
+
+export interface PaginationMetadata {
+  total: number;      // Total matching results (before pagination)
+  offset: number;     // Current offset (echo from request)
+  limit: number;      // Current limit (echo from request)
+  hasMore: boolean;   // True if more results available beyond current page
+}
 
 // ===== Regex Patterns =====
 

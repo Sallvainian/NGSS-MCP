@@ -3,7 +3,7 @@
  * Provides configurable response formatting for token optimization
  */
 
-import type { Standard, DetailLevel, MinimalStandard, SummaryStandard } from '../types/ngss.js';
+import type { Standard, DetailLevel, MinimalStandard, SummaryStandard, PaginationMetadata } from '../types/ngss.js';
 
 /**
  * Truncate text at word boundary
@@ -85,4 +85,25 @@ export function formatResponseArray(
   detailLevel: DetailLevel = 'full'
 ): (MinimalStandard | SummaryStandard | Standard)[] {
   return standards.map(standard => formatResponse(standard, detailLevel));
+}
+
+/**
+ * Build pagination metadata for paginated responses
+ *
+ * @param total - Total number of results (before pagination)
+ * @param offset - Current offset
+ * @param limit - Current limit
+ * @returns Pagination metadata object
+ */
+export function buildPaginationMetadata(
+  total: number,
+  offset: number,
+  limit: number
+): PaginationMetadata {
+  return {
+    total,
+    offset,
+    limit,
+    hasMore: (offset + limit) < total
+  };
 }

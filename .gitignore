@@ -64,6 +64,7 @@ EXTRACTION-RESULTS.md
 SERVER-IMPLEMENTATION.md
 tech-spec.md
 teachflow-backup.tar.gz
+.archive/
 
 # MCP configuration (local testing)
 .mcp.json

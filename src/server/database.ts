@@ -7,7 +7,6 @@ import { readFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { performance } from 'perf_hooks';
-import * as levenshtein from 'fast-levenshtein';
 import type { Standard } from '../types/ngss.js';
 import { QueryCache, generateCacheKey, type CacheMetrics } from './query-cache.js';
 import { QueryValidator } from './query-validation.js';
@@ -40,7 +39,6 @@ export class NGSSDatabase {
   // Indexes for O(1) or O(log n) lookups
   private codeIndex: Map<string, Standard>;
   private domainIndex: Map<string, Standard[]>;
-  private questionKeywordIndex: Map<string, Set<string>>;
   private fullTextIndex: Map<string, Set<string>>;
 
   // Query caching and performance tracking
@@ -65,7 +63,6 @@ export class NGSSDatabase {
     // Initialize indexes
     this.codeIndex = new Map();
     this.domainIndex = new Map();
-    this.questionKeywordIndex = new Map();
     this.fullTextIndex = new Map();
 
     // Initialize cache and metrics
@@ -110,23 +107,11 @@ export class NGSSDatabase {
       }
       this.domainIndex.get(domainKey)!.push(standard);
 
-      // 3. Driving question keyword index
-      if (standard.driving_questions && standard.driving_questions.length > 0) {
-        const keywords = this.extractKeywords(standard.driving_questions.join(' '));
-        keywords.forEach(keyword => {
-          if (!this.questionKeywordIndex.has(keyword)) {
-            this.questionKeywordIndex.set(keyword, new Set());
-          }
-          this.questionKeywordIndex.get(keyword)!.add(standard.code);
-        });
-      }
-
-      // 4. Full-text index (PE + keywords + topic)
+      // 3. Full-text index (PE + keywords + topic)
       const fullText = [
         standard.performance_expectation,
         standard.topic,
-        ...(standard.keywords || []),
-        ...(standard.driving_questions || [])
+        ...(standard.keywords || [])
       ].join(' ');
 
       const textKeywords = this.extractKeywords(fullText);
@@ -178,26 +163,24 @@ export class NGSSDatabase {
     return this.codeIndex.get(validation.sanitized!) || null;
   }
 
-  searchByDomain(domain: string): Standard[] {
+  searchByDomain(domain: string, options: {
+    offset?: number;
+    limit?: number;
+  } = {}): Standard[] {
     // Validate domain parameter
     const validation = QueryValidator.validateDomain(domain);
     if (!validation.isValid) {
       throw new Error(validation.error);
     }
 
-    const domainKey = this.normalizeDomain(validation.sanitized!);
-    return this.domainIndex.get(domainKey) || [];
-  }
+    const offset = options.offset ?? 0;
+    const limit = options.limit ?? 10;
 
-  /**
-   * Normalize text for fuzzy matching: lowercase, normalize spacing, remove punctuation
-   */
-  private normalizeForFuzzyMatch(text: string): string {
-    return text
-      .toLowerCase()
-      .replace(/\s+/g, ' ')  // Normalize multiple spaces to single space
-      .replace(/[^\w\s]/g, '')  // Remove punctuation
-      .trim();
+    const domainKey = this.normalizeDomain(validation.sanitized!);
+    const allResults = this.domainIndex.get(domainKey) || [];
+
+    // Apply pagination: slice from offset to offset + limit
+    return allResults.slice(offset, offset + limit);
   }
 
   get3DComponents(code: string): { sep: any; dci: any; ccc: any } | null {
@@ -221,6 +204,7 @@ export class NGSSDatabase {
 
   searchStandards(query: string, options: {
     domain?: string;
+    offset?: number;
     limit?: number;
   } = {}): Array<{ standard: Standard; score: number }> {
     const startTime = performance.now();
@@ -237,8 +221,16 @@ export class NGSSDatabase {
       throw new Error(optionsValidation.errors.join('; '));
     }
 
-    // Check cache first
-    const cacheKey = generateCacheKey('searchStandards', { query: queryValidation.sanitized, ...options });
+    const offset = options.offset ?? 0;
+    const limit = options.limit ?? 10;
+
+    // Check cache first (cache key includes pagination)
+    const cacheKey = generateCacheKey('searchStandards', {
+      query: queryValidation.sanitized,
+      domain: options.domain,
+      offset,
+      limit
+    });
     const cached = this.searchCache.get(cacheKey);
     if (cached) {
       this.trackQuery('searchStandards', performance.now() - startTime);
@@ -277,14 +269,13 @@ export class NGSSDatabase {
       );
     }
 
-    // Sort by score and apply limit
+    // Sort by score and apply pagination
     results.sort((a, b) => b.score - a.score);
 
-    if (options.limit && options.limit > 0) {
-      results = results.slice(0, options.limit);
-    }
+    // Apply offset and limit
+    results = results.slice(offset, offset + limit);
 
-    // Cache results
+    // Cache paginated results
     this.searchCache.set(cacheKey, results);
     this.trackQuery('searchStandards', performance.now() - startTime);
 
@@ -304,7 +295,6 @@ export class NGSSDatabase {
       indexSizes: {
         codes: this.codeIndex.size,
         domains: this.domainIndex.size,
-        questionKeywords: this.questionKeywordIndex.size,
         fullTextKeywords: this.fullTextIndex.size
       }
     };
