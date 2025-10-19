@@ -6,6 +6,12 @@
   "bin": {
     "ngss-mcp": "./dist/server/index.js"
   },
+  "files": [
+    "dist/",
+    "data/",
+    "LICENSE",
+    "README.md"
+  ],
   "directories": {
     "doc": "docs"
   },

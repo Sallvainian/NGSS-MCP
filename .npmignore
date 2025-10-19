@@ -1,0 +1,35 @@
+# Development and tooling directories
+.claude/
+.cursor/
+.gemini/
+.github/
+.serena/
+bmad/
+scripts/
+docs/
+
+# Test files
+*.test.ts
+*.test.js
+**/*.test.ts
+**/*.test.js
+
+# Build artifacts
+*.tgz
+
+# Development files
+.gitignore
+.npmrc
+tsconfig.*.json
+
+# Git
+.git/
+.gitattributes
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
