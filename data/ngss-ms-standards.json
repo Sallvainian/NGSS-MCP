@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-19T07:18:37.727Z",
+  "generated_at": "2025-10-20T07:50:17.708Z",
   "source": "Middle School By Topic NGSS.pdf",
   "standards": [
     {
@@ -11,17 +11,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop a model to predict and/or describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 and progresses to developing, using and revising models to describe, test, and predict more abstract"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 and progresses to developing, using and revising models to describe, test, and predict more abstract"
       },
       "dci": {
         "code": "PS1.A",
         "name": "Structure and Properties of Matter",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Ed ucation: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Ed ucation: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena i n natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena i n natural or designed systems. (MS-PS1-4) Scale, Proportion, and Quantity ▪ Time, s"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena i n natural or designed systems. (MS-PS1-4) Scale, Proportion, and Quantity \u25aa Time, s"
       },
       "keywords": [
         "develop",
@@ -61,17 +61,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop a model to predict and/or describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 and progresses to developing, using and revising models to describe, test, and predict more abstract"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 and progresses to developing, using and revising models to describe, test, and predict more abstract"
       },
       "dci": {
         "code": "PS1.A",
         "name": "Structure and Properties of Matter",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Ed ucation: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Ed ucation: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena i n natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena i n natural or designed systems. (MS-PS1-4) Scale, Proportion, and Quantity ▪ Time, s"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena i n natural or designed systems. (MS-PS1-4) Scale, Proportion, and Quantity \u25aa Time, s"
       },
       "keywords": [
         "gather",
@@ -111,17 +111,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop a model to predict and/or describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 and progresses to developing, using and revising models to describe, test, and predict more abstract"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 and progresses to developing, using and revising models to describe, test, and predict more abstract"
       },
       "dci": {
         "code": "PS1.A",
         "name": "Structure and Properties of Matter",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Ed ucation: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Ed ucation: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena i n natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena i n natural or designed systems. (MS-PS1-4) Scale, Proportion, and Quantity ▪ Time, s"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena i n natural or designed systems. (MS-PS1-4) Scale, Proportion, and Quantity \u25aa Time, s"
       },
       "keywords": [
         "develop",
@@ -161,17 +161,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop a model to describe unobservable mechanisms.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 and progresses to developing, using and revising models to describe, test, and predict more abstract"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 and progresses to developing, using and revising models to describe, test, and predict more abstract"
       },
       "dci": {
-        "code": "PS1.A",
-        "name": "Structure and Properties of Matter",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "PS1.B",
+        "name": "Chemical Reactions",
+        "description": "Substances react chemically in characteristic ways. In a chemical process, the atoms that make up the original substances are regrouped into different molecules, and these new substances have different properties from those of the reactants."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Macroscopic patterns are related to the nature of microscopic and atomic -level structure.",
-        "description": "Crosscutting Concepts Patterns ▪ Macroscopic patterns are related to the nature of microscopic and atomic -level structure. (MS -PS1-2) Energy and Matter ▪ Matter is conserved because atoms a"
+        "name": "Macroscopic patterns are related to the nature of microscopic and atomic-level structure.",
+        "description": "Crosscutting Concepts Patterns \u25aa Macroscopic patterns are related to the nature of microscopic and atomic -level structure. (MS -PS1-2) Energy and Matter \u25aa Matter is conserved because atoms a"
       },
       "keywords": [
         "analyze",
@@ -211,17 +211,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop a model to describe unobservable mechanisms.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 and progresses to developing, using and revising models to describe, test, and predict more abstract"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 and progresses to developing, using and revising models to describe, test, and predict more abstract"
       },
       "dci": {
-        "code": "PS1.A",
-        "name": "Structure and Properties of Matter",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "PS1.B",
+        "name": "Chemical Reactions",
+        "description": "Substances react chemically in characteristic ways. In a chemical process, the atoms that make up the original substances are regrouped into different molecules, and these new substances have different properties from those of the reactants."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Macroscopic patterns are related to the nature of microscopic and atomic -level structure.",
-        "description": "Crosscutting Concepts Patterns ▪ Macroscopic patterns are related to the nature of microscopic and atomic -level structure. (MS -PS1-2) Energy and Matter ▪ Matter is conserved because atoms a"
+        "name": "Macroscopic patterns are related to the nature of microscopic and atomic-level structure.",
+        "description": "Crosscutting Concepts Patterns \u25aa Macroscopic patterns are related to the nature of microscopic and atomic -level structure. (MS -PS1-2) Energy and Matter \u25aa Matter is conserved because atoms a"
       },
       "keywords": [
         "develop",
@@ -261,17 +261,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop a model to describe unobservable mechanisms.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 and progresses to developing, using and revising models to describe, test, and predict more abstract"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 and progresses to developing, using and revising models to describe, test, and predict more abstract"
       },
       "dci": {
-        "code": "PS1.A",
-        "name": "Structure and Properties of Matter",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "PS1.B",
+        "name": "Chemical Reactions",
+        "description": "Substances react chemically in characteristic ways. In a chemical process, the atoms that make up the original substances are regrouped into different molecules, and these new substances have different properties from those of the reactants."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Macroscopic patterns are related to the nature of microscopic and atomic -level structure.",
-        "description": "Crosscutting Concepts Patterns ▪ Macroscopic patterns are related to the nature of microscopic and atomic -level structure. (MS -PS1-2) Energy and Matter ▪ Matter is conserved because atoms a"
+        "name": "Macroscopic patterns are related to the nature of microscopic and atomic-level structure.",
+        "description": "Crosscutting Concepts Patterns \u25aa Macroscopic patterns are related to the nature of microscopic and atomic -level structure. (MS -PS1-2) Energy and Matter \u25aa Matter is conserved because atoms a"
       },
       "keywords": [
         "undertake",
@@ -307,21 +307,21 @@
       "grade_level": "MS",
       "domain": "Physical Science",
       "topic": "Forces and Interactions",
-      "performance_expectation": "Apply Newton’s Third Law to design a solution to a problem involving the motion of two colliding objects .*",
+      "performance_expectation": "Apply Newton\u2019s Third Law to design a solution to a problem involving the motion of two colliding objects .*",
       "sep": {
         "code": "SEP-1",
-        "name": "Ask ques tions that can be investigated within the scope of the classroom, outdoor environment, and museums and other public facilities with available resources and, when appropriate, frame a hypothesis based on observations and scientific principles.",
-        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in grades 6 –8 builds from grades K–5 experiences and progresses to specifying rela"
+        "name": "Ask questions that can be investigated within the scope of the classroom, outdoor environment, and museums and other public facilities with available resources and, when appropriate, frame a hypothesis based on observations and scientific principles.",
+        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in grades 6 \u20138 builds from grades K\u20135 experiences and progresses to specifying rela"
       },
       "dci": {
         "code": "PS2.A",
         "name": "Forces and Motion",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena i n natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena i n natural or designed systems. ( MS-PS2-3),(MS-PS2- 5) Systems and System Models ▪ M"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena i n natural or designed systems. ( MS-PS2-3),(MS-PS2- 5) Systems and System Models \u25aa M"
       },
       "keywords": [
         "apply",
@@ -357,21 +357,21 @@
       "grade_level": "MS",
       "domain": "Physical Science",
       "topic": "Forces and Interactions",
-      "performance_expectation": "Plan an investigation to pro vide evidence that the change in an object’s motion depends on the sum of the forces on the object and the mass of the object .",
+      "performance_expectation": "Plan an investigation to pro vide evidence that the change in an object\u2019s motion depends on the sum of the forces on the object and the mass of the object .",
       "sep": {
         "code": "SEP-1",
-        "name": "Ask ques tions that can be investigated within the scope of the classroom, outdoor environment, and museums and other public facilities with available resources and, when appropriate, frame a hypothesis based on observations and scientific principles.",
-        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in grades 6 –8 builds from grades K–5 experiences and progresses to specifying rela"
+        "name": "Ask questions that can be investigated within the scope of the classroom, outdoor environment, and museums and other public facilities with available resources and, when appropriate, frame a hypothesis based on observations and scientific principles.",
+        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in grades 6 \u20138 builds from grades K\u20135 experiences and progresses to specifying rela"
       },
       "dci": {
         "code": "PS2.A",
         "name": "Forces and Motion",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena i n natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena i n natural or designed systems. ( MS-PS2-3),(MS-PS2- 5) Systems and System Models ▪ M"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena i n natural or designed systems. ( MS-PS2-3),(MS-PS2- 5) Systems and System Models \u25aa M"
       },
       "keywords": [
         "plan",
@@ -410,18 +410,18 @@
       "performance_expectation": "Ask questions about data to determine the factors that affect the strength of electric and magnetic forces.",
       "sep": {
         "code": "SEP-1",
-        "name": "Ask ques tions that can be investigated within the scope of the classroom, outdoor environment, and museums and other public facilities with available resources and, when appropriate, frame a hypothesis based on observations and scientific principles.",
-        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in grades 6 –8 builds from grades K–5 experiences and progresses to specifying rela"
+        "name": "Ask questions that can be investigated within the scope of the classroom, outdoor environment, and museums and other public facilities with available resources and, when appropriate, frame a hypothesis based on observations and scientific principles.",
+        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in grades 6 \u20138 builds from grades K\u20135 experiences and progresses to specifying rela"
       },
       "dci": {
-        "code": "PS2.A",
-        "name": "Forces and Motion",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "PS2.B",
+        "name": "Types of Interactions",
+        "description": "Electric and magnetic (electromagnetic) forces can be attractive or repulsive, and their sizes depend on the magnitudes of the charges, currents, or magnetic strengths involved and on the distances between the interacting objects."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena i n natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena i n natural or designed systems. ( MS-PS2-3),(MS-PS2- 5) Systems and System Models ▪ M"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena i n natural or designed systems. ( MS-PS2-3),(MS-PS2- 5) Systems and System Models \u25aa M"
       },
       "keywords": [
         "questions",
@@ -460,18 +460,18 @@
       "performance_expectation": "Construct and present arguments using evidence to support the claim that gravitational interactions are attractive and depend on the masses of interacting objects .",
       "sep": {
         "code": "SEP-1",
-        "name": "Ask ques tions that can be investigated within the scope of the classroom, outdoor environment, and museums and other public facilities with available resources and, when appropriate, frame a hypothesis based on observations and scientific principles.",
-        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in grades 6 –8 builds from grades K–5 experiences and progresses to specifying rela"
+        "name": "Ask questions that can be investigated within the scope of the classroom, outdoor environment, and museums and other public facilities with available resources and, when appropriate, frame a hypothesis based on observations and scientific principles.",
+        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in grades 6 \u20138 builds from grades K\u20135 experiences and progresses to specifying rela"
       },
       "dci": {
-        "code": "PS2.A",
-        "name": "Forces and Motion",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "PS2.B",
+        "name": "Types of Interactions",
+        "description": "Gravitational forces are always attractive. There is a gravitational force between any two masses, but it is very small except when one or both of the objects have large mass\u2014e.g., Earth and the sun."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena i n natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena i n natural or designed systems. ( MS-PS2-3),(MS-PS2- 5) Systems and System Models ▪ M"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena i n natural or designed systems. ( MS-PS2-3),(MS-PS2- 5) Systems and System Models \u25aa M"
       },
       "keywords": [
         "construct",
@@ -510,18 +510,18 @@
       "performance_expectation": "Conduct an investigation and evaluate the experimental design to provide evidence that fields exist between objects exerting forces on each other even though the objects are not in contact .",
       "sep": {
         "code": "SEP-1",
-        "name": "Ask ques tions that can be investigated within the scope of the classroom, outdoor environment, and museums and other public facilities with available resources and, when appropriate, frame a hypothesis based on observations and scientific principles.",
-        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in grades 6 –8 builds from grades K–5 experiences and progresses to specifying rela"
+        "name": "Ask questions that can be investigated within the scope of the classroom, outdoor environment, and museums and other public facilities with available resources and, when appropriate, frame a hypothesis based on observations and scientific principles.",
+        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in grades 6 \u20138 builds from grades K\u20135 experiences and progresses to specifying rela"
       },
       "dci": {
-        "code": "PS2.A",
-        "name": "Forces and Motion",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "PS2.B",
+        "name": "Types of Interactions",
+        "description": "Forces that act at a distance (electric, magnetic, and gravitational) can be explained by fields that extend through space and can be mapped by their effect on a test object."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena i n natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena i n natural or designed systems. ( MS-PS2-3),(MS-PS2- 5) Systems and System Models ▪ M"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena i n natural or designed systems. ( MS-PS2-3),(MS-PS2- 5) Systems and System Models \u25aa M"
       },
       "keywords": [
         "conduct",
@@ -561,17 +561,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop a model to describe unobservable mechanisms.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 and progresses to developing, using and revising models to describe , test, and predict more abstract"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 and progresses to developing, using and revising models to describe , test, and predict more abstract"
       },
       "dci": {
         "code": "PS3.A",
         "name": "Definitions of Energy",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Proportional relationships (e.",
-        "description": "Crosscutting Concepts Scale, Proportion, and Quantity ▪ Proportional relationships (e.g. speed as the ratio of distance traveled to time taken) among different types of quantities provide infor"
+        "name": "Proportional relationships (e.g., speed as the ratio of distance traveled to time taken) among different types of quantities provide information about the magnitude of properties and processes.",
+        "description": "Crosscutting Concepts Scale, Proportion, and Quantity \u25aa Proportional relationships (e.g. speed as the ratio of distance traveled to time taken) among different types of quantities provide infor"
       },
       "keywords": [
         "construct",
@@ -611,17 +611,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop a model to describe unobservable mechanisms.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 and progresses to developing, using and revising models to describe , test, and predict more abstract"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 and progresses to developing, using and revising models to describe , test, and predict more abstract"
       },
       "dci": {
         "code": "PS3.A",
         "name": "Definitions of Energy",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Proportional relationships (e.",
-        "description": "Crosscutting Concepts Scale, Proportion, and Quantity ▪ Proportional relationships (e.g. speed as the ratio of distance traveled to time taken) among different types of quantities provide infor"
+        "name": "Proportional relationships (e.g., speed as the ratio of distance traveled to time taken) among different types of quantities provide information about the magnitude of properties and processes.",
+        "description": "Crosscutting Concepts Scale, Proportion, and Quantity \u25aa Proportional relationships (e.g. speed as the ratio of distance traveled to time taken) among different types of quantities provide infor"
       },
       "keywords": [
         "develop",
@@ -661,17 +661,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop a model to describe unobservable mechanisms.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 and progresses to developing, using and revising models to describe , test, and predict more abstract"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 and progresses to developing, using and revising models to describe , test, and predict more abstract"
       },
       "dci": {
-        "code": "PS3.A",
-        "name": "Definitions of Energy",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "PS3.B",
+        "name": "Conservation of Energy and Energy Transfer",
+        "description": "When the motion energy of an object changes, there is inevitably some other change in energy at the same time. The amount of energy transfer needed to change the temperature of a matter sample by a given amount depends on the nature of the matter, the size of the sample, and the environment."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Proportional relationships (e.",
-        "description": "Crosscutting Concepts Scale, Proportion, and Quantity ▪ Proportional relationships (e.g. speed as the ratio of distance traveled to time taken) among different types of quantities provide infor"
+        "name": "Proportional relationships (e.g., speed as the ratio of distance traveled to time taken) among different types of quantities provide information about the magnitude of properties and processes.",
+        "description": "Crosscutting Concepts Scale, Proportion, and Quantity \u25aa Proportional relationships (e.g. speed as the ratio of distance traveled to time taken) among different types of quantities provide infor"
       },
       "keywords": [
         "apply",
@@ -711,17 +711,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop a model to describe unobservable mechanisms.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 and progresses to developing, using and revising models to describe , test, and predict more abstract"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 and progresses to developing, using and revising models to describe , test, and predict more abstract"
       },
       "dci": {
         "code": "PS3.A",
         "name": "Definitions of Energy",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Proportional relationships (e.",
-        "description": "Crosscutting Concepts Scale, Proportion, and Quantity ▪ Proportional relationships (e.g. speed as the ratio of distance traveled to time taken) among different types of quantities provide infor"
+        "name": "Proportional relationships (e.g., speed as the ratio of distance traveled to time taken) among different types of quantities provide information about the magnitude of properties and processes.",
+        "description": "Crosscutting Concepts Scale, Proportion, and Quantity \u25aa Proportional relationships (e.g. speed as the ratio of distance traveled to time taken) among different types of quantities provide infor"
       },
       "keywords": [
         "plan",
@@ -761,17 +761,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop a model to describe unobservable mechanisms.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 and progresses to developing, using and revising models to describe , test, and predict more abstract"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 and progresses to developing, using and revising models to describe , test, and predict more abstract"
       },
       "dci": {
-        "code": "PS3.A",
-        "name": "Definitions of Energy",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "PS3.B",
+        "name": "Conservation of Energy and Energy Transfer",
+        "description": "Energy is spontaneously transferred out of hotter regions or objects and into colder ones. Energy is conserved in energy transfers and transformations. The chemical reaction by which plants produce complex food molecules (sugars) requires an energy input (i.e., from sunlight) to occur."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Proportional relationships (e.",
-        "description": "Crosscutting Concepts Scale, Proportion, and Quantity ▪ Proportional relationships (e.g. speed as the ratio of distance traveled to time taken) among different types of quantities provide infor"
+        "name": "Proportional relationships (e.g., speed as the ratio of distance traveled to time taken) among different types of quantities provide information about the magnitude of properties and processes.",
+        "description": "Crosscutting Concepts Scale, Proportion, and Quantity \u25aa Proportional relationships (e.g. speed as the ratio of distance traveled to time taken) among different types of quantities provide infor"
       },
       "keywords": [
         "construct",
@@ -811,17 +811,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop and use a model to describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6–8 builds on K –5 and progresses to developing, using , and revising models to describe, test , and predict more abstrac"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6\u20138 builds on K \u20135 and progresses to developing, using , and revising models to describe, test , and predict more abstrac"
       },
       "dci": {
         "code": "PS4.A",
         "name": "Wave Properties",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Con cepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Con cepts, and Core Ideas. Integrated and reprinted with permission from the N"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Graphs and charts can be used to identify patterns in data .",
-        "description": "Crosscutting Concepts Patterns ▪ Graphs and charts can be used to identify patterns in data . (MS-PS4- 1) Structure and Function ▪ Structures can be designed to serve particular functions b"
+        "name": "Graphs and charts can be used to identify patterns in data.",
+        "description": "Crosscutting Concepts Patterns \u25aa Graphs and charts can be used to identify patterns in data . (MS-PS4- 1) Structure and Function \u25aa Structures can be designed to serve particular functions b"
       },
       "keywords": [
         "mathematical",
@@ -861,17 +861,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop and use a model to describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6–8 builds on K –5 and progresses to developing, using , and revising models to describe, test , and predict more abstrac"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6\u20138 builds on K \u20135 and progresses to developing, using , and revising models to describe, test , and predict more abstrac"
       },
       "dci": {
         "code": "PS4.A",
         "name": "Wave Properties",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Con cepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Con cepts, and Core Ideas. Integrated and reprinted with permission from the N"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Graphs and charts can be used to identify patterns in data .",
-        "description": "Crosscutting Concepts Patterns ▪ Graphs and charts can be used to identify patterns in data . (MS-PS4- 1) Structure and Function ▪ Structures can be designed to serve particular functions b"
+        "name": "Graphs and charts can be used to identify patterns in data.",
+        "description": "Crosscutting Concepts Patterns \u25aa Graphs and charts can be used to identify patterns in data . (MS-PS4- 1) Structure and Function \u25aa Structures can be designed to serve particular functions b"
       },
       "keywords": [
         "develop",
@@ -911,17 +911,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop and use a model to describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6–8 builds on K –5 and progresses to developing, using , and revising models to describe, test , and predict more abstrac"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6\u20138 builds on K \u20135 and progresses to developing, using , and revising models to describe, test , and predict more abstrac"
       },
       "dci": {
-        "code": "PS4.A",
-        "name": "Wave Properties",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Con cepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "code": "PS4.C",
+        "name": "Information Technologies and Instrumentation",
+        "description": "Digitized signals (sent as wave pulses) are a more reliable way to encode and transmit information."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Graphs and charts can be used to identify patterns in data .",
-        "description": "Crosscutting Concepts Patterns ▪ Graphs and charts can be used to identify patterns in data . (MS-PS4- 1) Structure and Function ▪ Structures can be designed to serve particular functions b"
+        "name": "Graphs and charts can be used to identify patterns in data.",
+        "description": "Crosscutting Concepts Patterns \u25aa Graphs and charts can be used to identify patterns in data . (MS-PS4- 1) Structure and Function \u25aa Structures can be designed to serve particular functions b"
       },
       "keywords": [
         "integrate",
@@ -961,17 +961,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop and use a model to describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 experiences and progresses to developing, using, and revising models to describe, test, and predict"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 experiences and progresses to developing, using, and revising models to describe, test, and predict"
       },
       "dci": {
         "code": "LS1.A",
         "name": "Structure and Function",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Cause and effect relationships may be used to predict phenomena in natural systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena in natural systems. (MS -LS1-8) Scale, Proportion, and Quantity ▪ Phenomena that can be"
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena in natural systems. (MS -LS1-8) Scale, Proportion, and Quantity \u25aa Phenomena that can be"
       },
       "keywords": [
         "conduct",
@@ -1011,17 +1011,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop and use a model to describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 experiences and progresses to developing, using, and revising models to describe, test, and predict"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 experiences and progresses to developing, using, and revising models to describe, test, and predict"
       },
       "dci": {
         "code": "LS1.A",
         "name": "Structure and Function",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Cause and effect relationships may be used to predict phenomena in natural systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena in natural systems. (MS -LS1-8) Scale, Proportion, and Quantity ▪ Phenomena that can be"
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena in natural systems. (MS -LS1-8) Scale, Proportion, and Quantity \u25aa Phenomena that can be"
       },
       "keywords": [
         "develop",
@@ -1061,17 +1061,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop and use a model to describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 experiences and progresses to developing, using, and revising models to describe, test, and predict"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 experiences and progresses to developing, using, and revising models to describe, test, and predict"
       },
       "dci": {
         "code": "LS1.A",
         "name": "Structure and Function",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Cause and effect relationships may be used to predict phenomena in natural systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena in natural systems. (MS -LS1-8) Scale, Proportion, and Quantity ▪ Phenomena that can be"
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena in natural systems. (MS -LS1-8) Scale, Proportion, and Quantity \u25aa Phenomena that can be"
       },
       "keywords": [
         "argument",
@@ -1111,17 +1111,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop and use a model to describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 experiences and progresses to developing, using, and revising models to describe, test, and predict"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 experiences and progresses to developing, using, and revising models to describe, test, and predict"
       },
       "dci": {
-        "code": "LS1.A",
-        "name": "Structure and Function",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "LS1.D",
+        "name": "Information Processing",
+        "description": "Each sense receptor responds to different inputs (electromagnetic, mechanical, chemical), transmitting them as signals that travel along nerve cells to the brain. The signals are then processed in the brain, resulting in immediate behaviors or memories."
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Cause and effect relationships may be used to predict phenomena in natural systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena in natural systems. (MS -LS1-8) Scale, Proportion, and Quantity ▪ Phenomena that can be"
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena in natural systems. (MS -LS1-8) Scale, Proportion, and Quantity \u25aa Phenomena that can be"
       },
       "keywords": [
         "gather",
@@ -1166,12 +1166,12 @@
       "dci": {
         "code": "LS1.C",
         "name": "Organization for Matter and Energy Flow in Organisms",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS-LS2-1) Energy and Matter ▪ Matter is conserved bec"
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS-LS2-1) Energy and Matter \u25aa Matter is conserved bec"
       },
       "keywords": [
         "construct",
@@ -1216,12 +1216,12 @@
       "dci": {
         "code": "LS1.C",
         "name": "Organization for Matter and Energy Flow in Organisms",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS-LS2-1) Energy and Matter ▪ Matter is conserved bec"
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS-LS2-1) Energy and Matter \u25aa Matter is conserved bec"
       },
       "keywords": [
         "develop",
@@ -1264,14 +1264,14 @@
         "description": ""
       },
       "dci": {
-        "code": "LS1.C",
-        "name": "Organization for Matter and Energy Flow in Organisms",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "LS2.A",
+        "name": "Interdependent Relationships in Ecosystems",
+        "description": "Organisms, and populations of organisms, are dependent on their environmental interactions both with other living things and with nonliving factors. Growth of organisms and population increases are limited by access to resources."
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS-LS2-1) Energy and Matter ▪ Matter is conserved bec"
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS-LS2-1) Energy and Matter \u25aa Matter is conserved bec"
       },
       "keywords": [
         "analyze",
@@ -1314,14 +1314,14 @@
         "description": ""
       },
       "dci": {
-        "code": "LS1.C",
-        "name": "Organization for Matter and Energy Flow in Organisms",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "LS2.B",
+        "name": "Cycles of Matter and Energy Transfer in Ecosystems",
+        "description": "Food webs are models that demonstrate how matter and energy is transferred between producers, consumers, and decomposers as the three groups interact within an ecosystem. Transfers of matter into and out of the physical environment occur at every level."
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS-LS2-1) Energy and Matter ▪ Matter is conserved bec"
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS-LS2-1) Energy and Matter \u25aa Matter is conserved bec"
       },
       "keywords": [
         "develop",
@@ -1364,14 +1364,14 @@
         "description": ""
       },
       "dci": {
-        "code": "LS1.C",
-        "name": "Organization for Matter and Energy Flow in Organisms",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "LS2.C",
+        "name": "Ecosystem Dynamics, Functioning, and Resilience",
+        "description": "Ecosystems are dynamic in nature; their characteristics can vary over time. Disruptions to any physical or biological component of an ecosystem can lead to shifts in all its populations."
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS-LS2-1) Energy and Matter ▪ Matter is conserved bec"
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS-LS2-1) Energy and Matter \u25aa Matter is conserved bec"
       },
       "keywords": [
         "construct",
@@ -1411,17 +1411,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Construct an explanation that includes qualitative or quantitative relationships between variables that predict phenomena.",
-        "description": "Science and Engineering Practices Constructing Explanations and Designing Solutions Constructing explanations and designing solutions in 6–8 builds on K –5 experiences and progresses to includ"
+        "description": "Science and Engineering Practices Constructing Explanations and Designing Solutions Constructing explanations and designing solutions in 6\u20138 builds on K \u20135 experiences and progresses to includ"
       },
       "dci": {
         "code": "LS2.A",
         "name": "Interdependent Relationships in Ecosystems",
-        "description": "Disciplinary Core Ideas” is repro duced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "description": "Disciplinary Core Ideas\u201d is repro duced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Patterns can be used to identify cau se and effect relationships.",
-        "description": "Crosscutting Concepts Patterns ▪ Patterns can be used to identify cau se and effect relationships. ( MS-LS2-2) Stability and Change ▪ Small changes in one part of a system might cause large c"
+        "name": "Patterns can be used to identify cause and effect relationships.",
+        "description": "Crosscutting Concepts Patterns \u25aa Patterns can be used to identify cau se and effect relationships. ( MS-LS2-2) Stability and Change \u25aa Small changes in one part of a system might cause large c"
       },
       "keywords": [
         "construct",
@@ -1461,17 +1461,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Construct an explanation that includes qualitative or quantitative relationships between variables that predict phenomena.",
-        "description": "Science and Engineering Practices Constructing Explanations and Designing Solutions Constructing explanations and designing solutions in 6–8 builds on K –5 experiences and progresses to includ"
+        "description": "Science and Engineering Practices Constructing Explanations and Designing Solutions Constructing explanations and designing solutions in 6\u20138 builds on K \u20135 experiences and progresses to includ"
       },
       "dci": {
-        "code": "LS2.A",
-        "name": "Interdependent Relationships in Ecosystems",
-        "description": "Disciplinary Core Ideas” is repro duced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "code": "LS2.C",
+        "name": "Ecosystem Dynamics, Functioning, and Resilience",
+        "description": "Biodiversity describes the variety of species found in Earth's terrestrial and oceanic ecosystems. The completeness or integrity of an ecosystem's biodiversity is often used as a measure of its health."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Patterns can be used to identify cau se and effect relationships.",
-        "description": "Crosscutting Concepts Patterns ▪ Patterns can be used to identify cau se and effect relationships. ( MS-LS2-2) Stability and Change ▪ Small changes in one part of a system might cause large c"
+        "name": "Patterns can be used to identify cause and effect relationships.",
+        "description": "Crosscutting Concepts Patterns \u25aa Patterns can be used to identify cau se and effect relationships. ( MS-LS2-2) Stability and Change \u25aa Small changes in one part of a system might cause large c"
       },
       "keywords": [
         "evaluate",
@@ -1511,17 +1511,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop and use a model to describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6–8 builds on K –5 experiences and progresses to developing, using, and revising models to describe, test, and predict"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6\u20138 builds on K \u20135 experiences and progresses to developing, using, and revising models to describe, test, and predict"
       },
       "dci": {
         "code": "LS1.B",
         "name": "Growth and Development of Organisms",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena i n natural systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena i n natural systems. (MS- LS3-2) ▪ Phenomena may have more than one cause, and some caus"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena i n natural systems. (MS- LS3-2) \u25aa Phenomena may have more than one cause, and some caus"
       },
       "keywords": [
         "argument",
@@ -1561,17 +1561,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop and use a model to describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6–8 builds on K –5 experiences and progresses to developing, using, and revising models to describe, test, and predict"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6\u20138 builds on K \u20135 experiences and progresses to developing, using, and revising models to describe, test, and predict"
       },
       "dci": {
         "code": "LS1.B",
         "name": "Growth and Development of Organisms",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena i n natural systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena i n natural systems. (MS- LS3-2) ▪ Phenomena may have more than one cause, and some caus"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena i n natural systems. (MS- LS3-2) \u25aa Phenomena may have more than one cause, and some caus"
       },
       "keywords": [
         "construct",
@@ -1611,17 +1611,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop and use a model to describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6–8 builds on K –5 experiences and progresses to developing, using, and revising models to describe, test, and predict"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6\u20138 builds on K \u20135 experiences and progresses to developing, using, and revising models to describe, test, and predict"
       },
       "dci": {
-        "code": "LS1.B",
-        "name": "Growth and Development of Organisms",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "LS3.A",
+        "name": "Inheritance of Traits",
+        "description": "Genes are located in the chromosomes of cells, with each chromosome pair containing two variants of each of many distinct genes. Each distinct gene chiefly controls the production of specific proteins, which in turn affects the traits of the individual."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena i n natural systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena i n natural systems. (MS- LS3-2) ▪ Phenomena may have more than one cause, and some caus"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena i n natural systems. (MS- LS3-2) \u25aa Phenomena may have more than one cause, and some caus"
       },
       "keywords": [
         "develop",
@@ -1661,17 +1661,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop and use a model to describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6–8 builds on K –5 experiences and progresses to developing, using, and revising models to describe, test, and predict"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6\u20138 builds on K \u20135 experiences and progresses to developing, using, and revising models to describe, test, and predict"
       },
       "dci": {
-        "code": "LS1.B",
-        "name": "Growth and Development of Organisms",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "LS3.B",
+        "name": "Variation of Traits",
+        "description": "In sexually reproducing organisms, each parent contributes half of the genes acquired (at random) by the offspring. Individuals have two of each chromosome and hence two alleles of each gene, one acquired from each parent."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena i n natural systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena i n natural systems. (MS- LS3-2) ▪ Phenomena may have more than one cause, and some caus"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena i n natural systems. (MS- LS3-2) \u25aa Phenomena may have more than one cause, and some caus"
       },
       "keywords": [
         "develop",
@@ -1711,17 +1711,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop and use a model to describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6–8 builds on K –5 experiences and progresses to developing, using, and revising models to describe, test, and predict"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6\u20138 builds on K \u20135 experiences and progresses to developing, using, and revising models to describe, test, and predict"
       },
       "dci": {
-        "code": "LS1.B",
-        "name": "Growth and Development of Organisms",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "LS4.D",
+        "name": "Biodiversity and Humans",
+        "description": "Changes in biodiversity can influence humans' resources, such as food, energy, and medicines, as well as ecosystem services that humans rely on\u2014for example, water purification and recycling."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena i n natural systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena i n natural systems. (MS- LS3-2) ▪ Phenomena may have more than one cause, and some caus"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena i n natural systems. (MS- LS3-2) \u25aa Phenomena may have more than one cause, and some caus"
       },
       "keywords": [
         "gather",
@@ -1761,17 +1761,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Analyze displays of data to identify linear and nonlinear relationships.",
-        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 –8 builds on K –5 experiences and progresses to extending quantitative analysis to investigation s, distingu"
+        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 \u20138 builds on K \u20135 experiences and progresses to extending quantitative analysis to investigation s, distingu"
       },
       "dci": {
         "code": "LS4.A",
         "name": "Evidence of Common Ancestry and Diversity",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Patter ns can be used to identify cause and effect relationships.",
-        "description": "Crosscutting Concepts Patterns ▪ Patter ns can be used to identify cause and effect relationships. (MS -LS4-2) ▪ Graphs , charts , and images can be used to identify patterns in data . (MS-L"
+        "name": "Patterns can be used to identify cause and effect relationships.",
+        "description": "Crosscutting Concepts Patterns \u25aa Patter ns can be used to identify cause and effect relationships. (MS -LS4-2) \u25aa Graphs , charts , and images can be used to identify patterns in data . (MS-L"
       },
       "keywords": [
         "analyze",
@@ -1811,17 +1811,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Analyze displays of data to identify linear and nonlinear relationships.",
-        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 –8 builds on K –5 experiences and progresses to extending quantitative analysis to investigation s, distingu"
+        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 \u20138 builds on K \u20135 experiences and progresses to extending quantitative analysis to investigation s, distingu"
       },
       "dci": {
         "code": "LS4.A",
         "name": "Evidence of Common Ancestry and Diversity",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Patter ns can be used to identify cause and effect relationships.",
-        "description": "Crosscutting Concepts Patterns ▪ Patter ns can be used to identify cause and effect relationships. (MS -LS4-2) ▪ Graphs , charts , and images can be used to identify patterns in data . (MS-L"
+        "name": "Patterns can be used to identify cause and effect relationships.",
+        "description": "Crosscutting Concepts Patterns \u25aa Patter ns can be used to identify cause and effect relationships. (MS -LS4-2) \u25aa Graphs , charts , and images can be used to identify patterns in data . (MS-L"
       },
       "keywords": [
         "apply",
@@ -1861,17 +1861,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Analyze displays of data to identify linear and nonlinear relationships.",
-        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 –8 builds on K –5 experiences and progresses to extending quantitative analysis to investigation s, distingu"
+        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 \u20138 builds on K \u20135 experiences and progresses to extending quantitative analysis to investigation s, distingu"
       },
       "dci": {
         "code": "LS4.A",
         "name": "Evidence of Common Ancestry and Diversity",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Patter ns can be used to identify cause and effect relationships.",
-        "description": "Crosscutting Concepts Patterns ▪ Patter ns can be used to identify cause and effect relationships. (MS -LS4-2) ▪ Graphs , charts , and images can be used to identify patterns in data . (MS-L"
+        "name": "Patterns can be used to identify cause and effect relationships.",
+        "description": "Crosscutting Concepts Patterns \u25aa Patter ns can be used to identify cause and effect relationships. (MS -LS4-2) \u25aa Graphs , charts , and images can be used to identify patterns in data . (MS-L"
       },
       "keywords": [
         "analyze",
@@ -1907,21 +1907,21 @@
       "grade_level": "MS",
       "domain": "Life Science",
       "topic": "Natural Selection and Adaptations",
-      "performance_expectation": "Construct an explanation based on evidence that describes how genetic variations of traits in a population increase some individual s’ probability of surviving and reproducing in a specific environment .",
+      "performance_expectation": "Construct an explanation based on evidence that describes how genetic variations of traits in a population increase some individual s\u2019 probability of surviving and reproducing in a specific environment .",
       "sep": {
         "code": "SEP-1",
         "name": "Analyze displays of data to identify linear and nonlinear relationships.",
-        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 –8 builds on K –5 experiences and progresses to extending quantitative analysis to investigation s, distingu"
+        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 \u20138 builds on K \u20135 experiences and progresses to extending quantitative analysis to investigation s, distingu"
       },
       "dci": {
-        "code": "LS4.A",
-        "name": "Evidence of Common Ancestry and Diversity",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "code": "LS4.C",
+        "name": "Adaptation",
+        "description": "Adaptation by natural selection acting over generations is one important process by which species change over time in response to changes in environmental conditions. Traits that support successful survival and reproduction in the new environment become more common; those that do not become less common. Thus, the distribution of traits in a population changes."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Patter ns can be used to identify cause and effect relationships.",
-        "description": "Crosscutting Concepts Patterns ▪ Patter ns can be used to identify cause and effect relationships. (MS -LS4-2) ▪ Graphs , charts , and images can be used to identify patterns in data . (MS-L"
+        "name": "Patterns can be used to identify cause and effect relationships.",
+        "description": "Crosscutting Concepts Patterns \u25aa Patter ns can be used to identify cause and effect relationships. (MS -LS4-2) \u25aa Graphs , charts , and images can be used to identify patterns in data . (MS-L"
       },
       "keywords": [
         "construct",
@@ -1961,17 +1961,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Analyze displays of data to identify linear and nonlinear relationships.",
-        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 –8 builds on K –5 experiences and progresses to extending quantitative analysis to investigation s, distingu"
+        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 \u20138 builds on K \u20135 experiences and progresses to extending quantitative analysis to investigation s, distingu"
       },
       "dci": {
-        "code": "LS4.A",
-        "name": "Evidence of Common Ancestry and Diversity",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "code": "LS4.B",
+        "name": "Natural Selection",
+        "description": "Adaptation by natural selection acting over generations is one important process by which species change over time in response to changes in environmental conditions. Traits that support successful survival and reproduction in the new environment become more common."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Patter ns can be used to identify cause and effect relationships.",
-        "description": "Crosscutting Concepts Patterns ▪ Patter ns can be used to identify cause and effect relationships. (MS -LS4-2) ▪ Graphs , charts , and images can be used to identify patterns in data . (MS-L"
+        "name": "Patterns can be used to identify cause and effect relationships.",
+        "description": "Crosscutting Concepts Patterns \u25aa Patter ns can be used to identify cause and effect relationships. (MS -LS4-2) \u25aa Graphs , charts , and images can be used to identify patterns in data . (MS-L"
       },
       "keywords": [
         "mathematical",
@@ -2010,18 +2010,18 @@
       "performance_expectation": "",
       "sep": {
         "code": "SEP-1",
-        "name": "Develop and use a model to describe phenomena .",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 experiences and progresses to developing, using, and revising models to describe, test, and predic"
+        "name": "Develop and use a model to describe phenomena.",
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 experiences and progresses to developing, using, and revising models to describe, test, and predic"
       },
       "dci": {
-        "code": "ESS1.A",
-        "name": "The Universe and Its Stars",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "code": "ESS1.B",
+        "name": "Earth and the Solar System",
+        "description": "The solar system consists of the sun and a collection of objects, including planets, their moons, and asteroids that are held in orbit around the sun by its gravitational pull on them. This model of the solar system can explain eclipses of the sun and the moon."
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Patterns can be used to identify cause and effect relationships.",
-        "description": "Crosscutting Concepts Patterns ▪ Patterns can be used to identify cause and effect relationships. ( MS-ESS1-1) Scale, Proportion, and Quantity ▪ Time, space, and energy phenomena can be obser"
+        "description": "Crosscutting Concepts Patterns \u25aa Patterns can be used to identify cause and effect relationships. ( MS-ESS1-1) Scale, Proportion, and Quantity \u25aa Time, space, and energy phenomena can be obser"
       },
       "keywords": [
         "space",
@@ -2045,18 +2045,18 @@
       "performance_expectation": "",
       "sep": {
         "code": "SEP-1",
-        "name": "Develop and use a model to describe phenomena .",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 experiences and progresses to developing, using, and revising models to describe, test, and predic"
+        "name": "Develop and use a model to describe phenomena.",
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 experiences and progresses to developing, using, and revising models to describe, test, and predic"
       },
       "dci": {
         "code": "ESS1.A",
         "name": "The Universe and Its Stars",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "description": "Patterns of the apparent motion of the sun, the moon, and stars in the sky can be observed, described, predicted, and explained with models. Earth and its solar system are part of the Milky Way galaxy, which is one of many galaxies in the universe."
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Patterns can be used to identify cause and effect relationships.",
-        "description": "Crosscutting Concepts Patterns ▪ Patterns can be used to identify cause and effect relationships. ( MS-ESS1-1) Scale, Proportion, and Quantity ▪ Time, space, and energy phenomena can be obser"
+        "description": "Crosscutting Concepts Patterns \u25aa Patterns can be used to identify cause and effect relationships. ( MS-ESS1-1) Scale, Proportion, and Quantity \u25aa Time, space, and energy phenomena can be obser"
       },
       "keywords": [
         "space",
@@ -2080,18 +2080,18 @@
       "performance_expectation": "",
       "sep": {
         "code": "SEP-1",
-        "name": "Develop and use a model to describe phenomena .",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 experiences and progresses to developing, using, and revising models to describe, test, and predic"
+        "name": "Develop and use a model to describe phenomena.",
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 experiences and progresses to developing, using, and revising models to describe, test, and predic"
       },
       "dci": {
-        "code": "ESS1.A",
-        "name": "The Universe and Its Stars",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "code": "ESS1.B",
+        "name": "Earth and the Solar System",
+        "description": "The solar system consists of the sun and a collection of objects, including planets, their moons, and asteroids that are held in orbit around the sun by its gravitational pull on them."
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Patterns can be used to identify cause and effect relationships.",
-        "description": "Crosscutting Concepts Patterns ▪ Patterns can be used to identify cause and effect relationships. ( MS-ESS1-1) Scale, Proportion, and Quantity ▪ Time, space, and energy phenomena can be obser"
+        "description": "Crosscutting Concepts Patterns \u25aa Patterns can be used to identify cause and effect relationships. ( MS-ESS1-1) Scale, Proportion, and Quantity \u25aa Time, space, and energy phenomena can be obser"
       },
       "keywords": [
         "space",
@@ -2116,17 +2116,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Analyze and interpret data to provide evidence for phenomena.",
-        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 –8 builds on K –5 and progresses to extending quantitative analysis to investigations, distinguishing between"
+        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 \u20138 builds on K \u20135 and progresses to extending quantitative analysis to investigations, distinguishing between"
       },
       "dci": {
-        "code": "ESS1.C",
-        "name": "The History of Planet Earth",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "ESS2.B",
+        "name": "Plate Tectonics and Large-Scale System Interactions",
+        "description": "Maps of ancient land and water patterns, based on investigations of rocks and fossils, make clear how Earth's plates have moved great distances, collided, and spread apart."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Patterns in rates of change and other numerical relationships can provide information about natura l systems.",
-        "description": "Crosscutting Concepts Patterns ▪ Patterns in rates of change and other numerical relationships can provide information about natura l systems. (MS-ESS2-3) Scale Proportion and Quantity ▪ Ti"
+        "name": "Patterns in rates of change and other numerical relationships can provide information about natural systems.",
+        "description": "Crosscutting Concepts Patterns \u25aa Patterns in rates of change and other numerical relationships can provide information about natura l systems. (MS-ESS2-3) Scale Proportion and Quantity \u25aa Ti"
       },
       "keywords": [
         "history",
@@ -2151,17 +2151,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Analyze and interpret data to provide evidence for phenomena.",
-        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 –8 builds on K –5 and progresses to extending quantitative analysis to investigations, distinguishing between"
+        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 \u20138 builds on K \u20135 and progresses to extending quantitative analysis to investigations, distinguishing between"
       },
       "dci": {
-        "code": "ESS1.C",
-        "name": "The History of Planet Earth",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "ESS2.C",
+        "name": "The Roles of Water in Earth's Surface Processes",
+        "description": "Water continually cycles among land, ocean, and atmosphere via transpiration, evaporation, condensation and crystallization, and precipitation, as well as downhill flows on land."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Patterns in rates of change and other numerical relationships can provide information about natura l systems.",
-        "description": "Crosscutting Concepts Patterns ▪ Patterns in rates of change and other numerical relationships can provide information about natura l systems. (MS-ESS2-3) Scale Proportion and Quantity ▪ Ti"
+        "name": "Patterns in rates of change and other numerical relationships can provide information about natural systems.",
+        "description": "Crosscutting Concepts Patterns \u25aa Patterns in rates of change and other numerical relationships can provide information about natura l systems. (MS-ESS2-3) Scale Proportion and Quantity \u25aa Ti"
       },
       "keywords": [
         "history",
@@ -2186,17 +2186,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Analyze and interpret data to provide evidence for phenomena.",
-        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 –8 builds on K –5 and progresses to extending quantitative analysis to investigations, distinguishing between"
+        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 \u20138 builds on K \u20135 and progresses to extending quantitative analysis to investigations, distinguishing between"
       },
       "dci": {
         "code": "ESS1.C",
         "name": "The History of Planet Earth",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Patterns in rates of change and other numerical relationships can provide information about natura l systems.",
-        "description": "Crosscutting Concepts Patterns ▪ Patterns in rates of change and other numerical relationships can provide information about natura l systems. (MS-ESS2-3) Scale Proportion and Quantity ▪ Ti"
+        "name": "Patterns in rates of change and other numerical relationships can provide information about natural systems.",
+        "description": "Crosscutting Concepts Patterns \u25aa Patterns in rates of change and other numerical relationships can provide information about natura l systems. (MS-ESS2-3) Scale Proportion and Quantity \u25aa Ti"
       },
       "keywords": [
         "history",
@@ -2221,17 +2221,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop and use a model to describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 experiences and progresses to developing, using, and revising models to describe, test, and predict"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 experiences and progresses to developing, using, and revising models to describe, test, and predict"
       },
       "dci": {
-        "code": "ESS2.A",
-        "name": "Earth’s Materials and Systems",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "code": "ESS2.C",
+        "name": "The Roles of Water in Earth's Surface Processes",
+        "description": "The complex patterns of the changes and the movement of water in the atmosphere, determined by winds, landforms, and ocean temperatures and currents, are major determinants of local weather patterns."
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS -ESS3-1) Energy and Matter ▪ Within a natural or d"
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS -ESS3-1) Energy and Matter \u25aa Within a natural or d"
       },
       "keywords": [
         "earth"
@@ -2255,17 +2255,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop and use a model to describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 experiences and progresses to developing, using, and revising models to describe, test, and predict"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 experiences and progresses to developing, using, and revising models to describe, test, and predict"
       },
       "dci": {
-        "code": "ESS2.A",
-        "name": "Earth’s Materials and Systems",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "code": "ESS3.A",
+        "name": "Natural Resources",
+        "description": "Humans depend on Earth's land, ocean, atmosphere, and biosphere for many different resources. Minerals, fresh water, and biosphere resources are limited, and many are not renewable or replaceable over human lifetimes."
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS -ESS3-1) Energy and Matter ▪ Within a natural or d"
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS -ESS3-1) Energy and Matter \u25aa Within a natural or d"
       },
       "keywords": [
         "earth"
@@ -2289,17 +2289,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Develop and use a model to describe phenomena.",
-        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 –8 builds on K –5 experiences and progresses to developing, using, and revising models to describe, test, and predict"
+        "description": "Science and Engineering Practices Developing and Using Models Modeling in 6 \u20138 builds on K \u20135 experiences and progresses to developing, using, and revising models to describe, test, and predict"
       },
       "dci": {
         "code": "ESS2.A",
-        "name": "Earth’s Materials and Systems",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
+        "name": "Earth Materials and Systems",
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the N"
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS -ESS3-1) Energy and Matter ▪ Within a natural or d"
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena in natural or designed systems. (MS -ESS3-1) Energy and Matter \u25aa Within a natural or d"
       },
       "keywords": [
         "earth"
@@ -2323,17 +2323,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Ask questions to identify and clarify evidence of an argument.",
-        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in 6 –8 builds on K–5 experiences and progresses to specifying relationships betwee"
+        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in 6 \u20138 builds on K\u20135 experiences and progresses to specifying relationships betwee"
       },
       "dci": {
         "code": "ESS2.D",
         "name": "Weather and Climate",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems .",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena in natural or designed systems . (MS-ESS2-5) Systems and System Models ▪ Models can b"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena in natural or designed systems . (MS-ESS2-5) Systems and System Models \u25aa Models can b"
       },
       "keywords": [
         "weather",
@@ -2358,17 +2358,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Ask questions to identify and clarify evidence of an argument.",
-        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in 6 –8 builds on K–5 experiences and progresses to specifying relationships betwee"
+        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in 6 \u20138 builds on K\u20135 experiences and progresses to specifying relationships betwee"
       },
       "dci": {
         "code": "ESS2.D",
         "name": "Weather and Climate",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems .",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena in natural or designed systems . (MS-ESS2-5) Systems and System Models ▪ Models can b"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena in natural or designed systems . (MS-ESS2-5) Systems and System Models \u25aa Models can b"
       },
       "keywords": [
         "weather",
@@ -2393,17 +2393,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Ask questions to identify and clarify evidence of an argument.",
-        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in 6 –8 builds on K–5 experiences and progresses to specifying relationships betwee"
+        "description": "Science and Engineering Practices Asking Questions and Defining Problems Asking questions and defining problems in 6 \u20138 builds on K\u20135 experiences and progresses to specifying relationships betwee"
       },
       "dci": {
-        "code": "ESS2.D",
-        "name": "Weather and Climate",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "ESS3.D",
+        "name": "Global Climate Change",
+        "description": "Human activities, such as the release of greenhouse gases from burning fossil fuels, are major factors in the current rise in Earth's mean surface temperature (global warming). Reducing the level of climate change and reducing human vulnerability to whatever climate changes do occur depend on the understanding of climate science, engineering capabilities, and other kinds of knowledge, such as understanding of human behavior and on applying that knowledge wisely in decisions and activities."
       },
       "ccc": {
         "code": "CCC-1",
-        "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems .",
-        "description": "Crosscutting Concepts Cause and Effect ▪ Cause and effect relationships may be used to predict phenomena in natural or designed systems . (MS-ESS2-5) Systems and System Models ▪ Models can b"
+        "name": "Cause and effect relationships may be used to predict phenomena in natural or designed systems.",
+        "description": "Crosscutting Concepts Cause and Effect \u25aa Cause and effect relationships may be used to predict phenomena in natural or designed systems . (MS-ESS2-5) Systems and System Models \u25aa Models can b"
       },
       "keywords": [
         "weather",
@@ -2428,17 +2428,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Analyze and interpret data to determine similarities and differences in findings.",
-        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 –8 builds on K –5 experiences and progresses to extending quantitative analysis to investigations, distingu"
+        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 \u20138 builds on K \u20135 experiences and progresses to extending quantitative analysis to investigations, distingu"
       },
       "dci": {
-        "code": "ESS3.B",
-        "name": "Natural Hazards",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "ESS3.C",
+        "name": "Human Impacts on Earth Systems",
+        "description": "Human activities have significantly altered the biosphere, sometimes damaging or destroying natural habitats and causing the extinction of other species. But changes to Earth's environments can have different impacts (negative and positive) for different living things."
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Graphs, charts, and images can be used to identify patterns in data.",
-        "description": "Crosscutting Concepts Patterns ▪ Graphs, charts, and images can be used to identify patterns in data. (MS-ESS3-2) Cause and Effect ▪ Relationships can be classified as causal or correlational"
+        "description": "Crosscutting Concepts Patterns \u25aa Graphs, charts, and images can be used to identify patterns in data. (MS-ESS3-2) Cause and Effect \u25aa Relationships can be classified as causal or correlational"
       },
       "keywords": [
         "human",
@@ -2463,17 +2463,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Analyze and interpret data to determine similarities and differences in findings.",
-        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 –8 builds on K –5 experiences and progresses to extending quantitative analysis to investigations, distingu"
+        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 \u20138 builds on K \u20135 experiences and progresses to extending quantitative analysis to investigations, distingu"
       },
       "dci": {
-        "code": "ESS3.B",
-        "name": "Natural Hazards",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "code": "ESS3.C",
+        "name": "Human Impacts on Earth Systems",
+        "description": "Typically as human populations and per-capita consumption of natural resources increase, so do the negative impacts on Earth unless the activities and technologies involved are engineered otherwise."
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Graphs, charts, and images can be used to identify patterns in data.",
-        "description": "Crosscutting Concepts Patterns ▪ Graphs, charts, and images can be used to identify patterns in data. (MS-ESS3-2) Cause and Effect ▪ Relationships can be classified as causal or correlational"
+        "description": "Crosscutting Concepts Patterns \u25aa Graphs, charts, and images can be used to identify patterns in data. (MS-ESS3-2) Cause and Effect \u25aa Relationships can be classified as causal or correlational"
       },
       "keywords": [
         "human",
@@ -2498,17 +2498,17 @@
       "sep": {
         "code": "SEP-1",
         "name": "Analyze and interpret data to determine similarities and differences in findings.",
-        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 –8 builds on K –5 experiences and progresses to extending quantitative analysis to investigations, distingu"
+        "description": "Science and Engineering Practices Analyzing and Interpreting Data Analyzing data in 6 \u20138 builds on K \u20135 experiences and progresses to extending quantitative analysis to investigations, distingu"
       },
       "dci": {
         "code": "ESS3.B",
         "name": "Natural Hazards",
-        "description": "Disciplinary Core Ideas” is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
+        "description": "Disciplinary Core Ideas\u201d is reproduced verbatim from A Framework for K -12 Science Education: Practices, Cross -Cutting Concepts, and Core Ideas. Integrated and reprinted with permission from the Na"
       },
       "ccc": {
         "code": "CCC-1",
         "name": "Graphs, charts, and images can be used to identify patterns in data.",
-        "description": "Crosscutting Concepts Patterns ▪ Graphs, charts, and images can be used to identify patterns in data. (MS-ESS3-2) Cause and Effect ▪ Relationships can be classified as causal or correlational"
+        "description": "Crosscutting Concepts Patterns \u25aa Graphs, charts, and images can be used to identify patterns in data. (MS-ESS3-2) Cause and Effect \u25aa Relationships can be classified as causal or correlational"
       },
       "keywords": [
         "human",

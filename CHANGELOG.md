@@ -5,6 +5,46 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2025-10-20
+
+### Fixed
+- **Critical Data Quality Fix**: Corrected DCI assignments across 29 standards
+- Expanded DCI_VALUES enum from 14 to 35 complete middle school DCIs
+- Fixed Unicode smart quote in "Earth Materials and Systems" DCI name
+- All 55 standards now have correct DCI mappings (32 of 35 DCIs mapped to standards)
+- Tool 8 (search_by_disciplinary_core_idea) now supports all 35 NGSS middle school DCIs
+
+### Technical
+- DCI coverage: 14 → 35 DCIs (100% NGSS middle school coverage)
+- Standards corrected: 29 of 55 standards updated with correct DCIs
+- Test count: 99 tests passing (87 → 99, added 12 Tool 8 tests)
+- Missing DCIs (not mapped to standards): PS3.C, PS4.B, ESS2.E
+
+## [1.1.0] - 2025-10-20
+
+### Added
+- **Tool 5: search_by_practice** - Filter standards by Science and Engineering Practice (10 SEP values)
+- **Tool 6: search_by_crosscutting_concept** - Filter standards by Crosscutting Concept (8 CCC values)
+- **Tool 8: get_unit_suggestions** - Intelligent unit planning recommendations with binary compatibility scoring
+- Complete 3D framework filtering support across all SEP and CCC dimensions
+- Binary compatibility scoring algorithm for unit planning (domain +3, SEP +2, CCC +2, DCI +1)
+- Data validation tests enforcing ADR-001 single-object model (sep.name, ccc.name, dci.name)
+- Backward compatibility regression tests for Tools 1-4
+- Tool regression smoke tests for Tools 5, 6, 8
+- Comprehensive integration test suite: 87 tests total (79 existing + 8 new)
+
+### Changed
+- Data model enforces single objects per ADR-001 (not breaking - backward compatible)
+- Improved test coverage: 79 tests → 87 tests (100% code coverage maintained)
+- Enhanced README with Tools 5, 6, 8 documentation, SEP/CCC enum values, and ADR-001 alignment note
+- Updated project structure documentation to reflect 8 tools
+
+### Technical
+- ADR-001: Single-object 3D framework structure for consistent data model
+- Test count: 87 comprehensive tests (54 baseline + 25 Tools 5-6-8 + 8 integration)
+- 100% backward compatibility verified (all 54 v1.0.1 baseline tests pass)
+- Package size: Optimized for 8 tools with minimal overhead
+
 ## [1.0.1] - 2025-01-19
 
 ### Fixed
