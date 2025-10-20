@@ -3,16 +3,17 @@
 [![npm version](https://img.shields.io/npm/v/ngss-mcp.svg)](https://www.npmjs.com/package/ngss-mcp)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-**Status:** ✅ v1.1.1 Published to npm
+**Status:** ✅ v1.1.2 Published to npm
+
+> **⚠️ Middle School Standards Only**
+> This MCP server provides access to **NGSS Middle School (MS) standards only**. It does not include Elementary (K-5) or High School (HS) standards.
 
 Model Context Protocol (MCP) server providing programmatic access to Next Generation Science Standards (NGSS) for middle school education.
 
-## What's New in v1.1.1
+## What's New in v1.1.2
 
-- **Complete 3D Framework Filtering**: Added DCI (Disciplinary Core Idea) search tool to complete the trilogy
-- **8 Total Tools**: Full coverage of SEP, CCC, and DCI filtering plus unit planning
-- **35 DCI Values**: Search by any of 35 Disciplinary Core Ideas (100% NGSS middle school coverage)
-- **Data Quality Fix**: Corrected 29 standards with proper DCI assignments
+- **Documentation Fixes**: Corrected tool count (8 not 9) and DCI count (35 not 14)
+- **Middle School Clarity**: Added explicit disclaimer that this server covers MS standards only
 
 > **See full release history in [CHANGELOG.md](./CHANGELOG.md)**
 
