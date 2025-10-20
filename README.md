@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/ngss-mcp.svg)](https://www.npmjs.com/package/ngss-mcp)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-**Status:** ✅ v1.1.0 Published to npm
+**Status:** ✅ v1.1.1 Published to npm
 
 Model Context Protocol (MCP) server providing programmatic access to Next Generation Science Standards (NGSS) for middle school education.
 
@@ -11,15 +11,10 @@ Model Context Protocol (MCP) server providing programmatic access to Next Genera
 
 - **Complete 3D Framework Filtering**: Added DCI (Disciplinary Core Idea) search tool to complete the trilogy
 - **9 Total Tools**: Full coverage of SEP, CCC, and DCI filtering plus unit planning
-- **14 DCI Values**: Search by any of 14 Disciplinary Core Ideas
+- **35 DCI Values**: Search by any of 35 Disciplinary Core Ideas (100% NGSS middle school coverage)
+- **Data Quality Fix**: Corrected 29 standards with proper DCI assignments
 
-## What's New in v1.1.0
-
-- **3 New Tools**: Filter by Science & Engineering Practices (SEP), Crosscutting Concepts (CCC), and get intelligent unit planning suggestions
-- **3D Framework Support**: Full support for all 10 SEP values and 8 CCC values
-- **Unit Planning**: AI-powered curriculum suggestions based on compatibility scoring
-- **Enhanced Testing**: 87 comprehensive tests with 100% code coverage
-- **ADR-001 Compliance**: Single-object data model for consistent SEP/CCC/DCI structure
+> **See full release history in [CHANGELOG.md](./CHANGELOG.md)**
 
 ## Features
 
