@@ -10,7 +10,7 @@ Model Context Protocol (MCP) server providing programmatic access to Next Genera
 ## What's New in v1.1.1
 
 - **Complete 3D Framework Filtering**: Added DCI (Disciplinary Core Idea) search tool to complete the trilogy
-- **9 Total Tools**: Full coverage of SEP, CCC, and DCI filtering plus unit planning
+- **8 Total Tools**: Full coverage of SEP, CCC, and DCI filtering plus unit planning
 - **35 DCI Values**: Search by any of 35 Disciplinary Core Ideas (100% NGSS middle school coverage)
 - **Data Quality Fix**: Corrected 29 standards with proper DCI assignments
 
@@ -24,7 +24,7 @@ Model Context Protocol (MCP) server providing programmatic access to Next Genera
 - **High-Performance Caching**: LRU cache with TTL for 60x faster repeated queries
 - **Performance Metrics**: Real-time query performance tracking and cache statistics
 - **Input Validation**: Comprehensive validation and sanitization for all query parameters
-- **9 Powerful Tools**: Comprehensive API for standard lookup, search, filtering, and unit planning
+- **8 Powerful Tools**: Comprehensive API for standard lookup, search, filtering, and unit planning
 - **MCP Protocol**: Native integration with Claude Desktop, Continue, and other MCP-compatible AI assistants
 
 ## Database Statistics

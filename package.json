@@ -1,7 +1,7 @@
 {
   "name": "ngss-mcp",
   "version": "1.1.1",
-  "description": "MCP server with 9 tools for NGSS standards: complete 3D framework filtering (SEP, CCC, DCI) and intelligent unit planning",
+  "description": "MCP server with 8 tools for NGSS standards: complete 3D framework filtering (SEP, CCC, DCI) and intelligent unit planning",
   "main": "dist/server/index.js",
   "bin": {
     "ngss-mcp": "dist/server/index.js"
