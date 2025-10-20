@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.3] - 2025-10-20
+
+### Added
+- GitHub Actions automated publishing workflow with OIDC authentication
+- Automatic npm publishing on version tag push
+- GitHub Release creation with changelog integration
+- Build and test verification before publishing
+
+### Infrastructure
+- No more manual npm publish required - fully automated via GitHub Actions
+- Secure OIDC authentication (no NPM_TOKEN needed in secrets)
+- Provenance attestation for supply chain security
+
+## [1.1.2] - 2025-10-20
+
+### Fixed
+- Documentation: Corrected tool count from 9 to 8 (Tool 4 was removed)
+- Documentation: Corrected DCI count from 14 to 35 in README
+- Added prominent middle school standards disclaimer at top of README
+
 ## [1.1.1] - 2025-10-20
 
 ### Fixed
