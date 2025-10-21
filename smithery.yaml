@@ -1,7 +1,7 @@
 runtime: "typescript"
 
 startCommand:
-  type: stdio
+  type: http
   configSchema:
     type: object
     description: "NGSS MCP Server requires no configuration"
