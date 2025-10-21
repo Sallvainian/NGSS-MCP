@@ -4,15 +4,11 @@
  */
 
 import { readFileSync } from 'fs';
-import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
+import { join } from 'path';
 import { performance } from 'perf_hooks';
 import type { Standard } from '../types/ngss.js';
 import { QueryCache, generateCacheKey, type CacheMetrics } from './query-cache.js';
 import { QueryValidator } from './query-validation.js';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 
 interface DatabaseMetadata {
   generated_at: string;
@@ -50,7 +46,8 @@ export class NGSSDatabase {
   };
 
   constructor(dbPath?: string, enableCache: boolean = true) {
-    const resolvedPath = dbPath || join(__dirname, '../../data/ngss-ms-standards.json');
+    // Use process.cwd() for bundle compatibility (works in both dev and Smithery deployments)
+    const resolvedPath = dbPath || join(process.cwd(), 'data/ngss-ms-standards.json');
     const content = readFileSync(resolvedPath, 'utf-8');
     const data: DatabaseContent = JSON.parse(content);
 
