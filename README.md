@@ -3,19 +3,22 @@
 [![npm version](https://img.shields.io/npm/v/ngss-mcp.svg)](https://www.npmjs.com/package/ngss-mcp)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-**Status:** ✅ v1.2.1 Published to npm
+**Status:** ✅ v1.2.2 Published to npm
 
 > **⚠️ Middle School Standards Only**
 > This MCP server provides access to **NGSS Middle School (MS) standards only**. It does not include Elementary (K-5) or High School (HS) standards.
 
 Model Context Protocol (MCP) server providing programmatic access to Next Generation Science Standards (NGSS) for middle school education.
 
-## What's New in v1.2.1
+## What's New in v1.2.2
 
-- **Smithery Deployment**: Fixed module field to support Smithery.ai TypeScript runtime
-- **Docker Support**: Added comprehensive Docker installation documentation (Option C)
-- **Multi-Platform Installation**: npm, Smithery, and Docker deployment options
-- **Package Optimization**: smithery.yaml now included in published package
+- **Platform-Specific Configurations**: Fixed MCP server configurations for macOS/Linux, Windows, and WSL
+  - macOS/Linux: Direct `npx` command
+  - Windows: `cmd /c npx` wrapper
+  - WSL: `wsl npx` command
+- **Installation Options**: Four clear installation methods (npm, MCP config, Smithery, Docker)
+- **Smithery Deployment**: Fixed module field for TypeScript runtime support
+- **Docker Support**: Comprehensive Docker installation documentation
 
 > **See full release history in [CHANGELOG.md](./CHANGELOG.md)**
 
