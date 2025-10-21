@@ -212,21 +212,39 @@ bun run build  # or npm run build
 
 ### Install as MCP Server
 
-For Claude Desktop or other MCP clients, add to your MCP configuration file.
+Add to your MCP configuration file:
 
-**Claude Desktop Config Locations**:
-- **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
-- **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
-- **Linux/WSL**: `~/.config/Claude/claude_desktop_config.json`
-
-**Configuration** (works on all platforms):
-
+**macOS/Linux**:
 ```json
 {
   "mcpServers": {
     "ngss": {
       "command": "npx",
       "args": ["-y", "ngss-mcp"]
+    }
+  }
+}
+```
+
+**Windows**:
+```json
+{
+  "mcpServers": {
+    "ngss": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "ngss-mcp"]
+    }
+  }
+}
+```
+
+**WSL**:
+```json
+{
+  "mcpServers": {
+    "ngss": {
+      "command": "wsl",
+      "args": ["bash", "-ic", "npx -y ngss-mcp"]
     }
   }
 }
