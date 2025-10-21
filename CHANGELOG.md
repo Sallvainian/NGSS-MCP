@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.1.3] - 10-20-2025
+## [1.1.3] - 2025-10-20
 
 ### Added
 - GitHub Actions automated publishing workflow with OIDC authentication
@@ -18,14 +18,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Secure OIDC authentication (no NPM_TOKEN needed in secrets)
 - Provenance attestation for supply chain security
 
-## [1.1.2] - 10-20-2025
+## [1.1.2] - 2025-10-20
 
 ### Fixed
 - Documentation: Corrected tool count from 9 to 8 (Tool 4 was removed)
 - Documentation: Corrected DCI count from 14 to 35 in README
 - Added prominent middle school standards disclaimer at top of README
 
-## [1.1.1] - 10-20-2025
+## [1.1.1] - 2025-10-20
 
 ### Fixed
 - **Critical Data Quality Fix**: Corrected DCI assignments across 29 standards
@@ -40,7 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Test count: 99 tests passing (87 → 99, added 12 Tool 8 tests)
 - Missing DCIs (not mapped to standards): PS3.C, PS4.B, ESS2.E
 
-## [1.1.0] - 10-20-2025
+## [1.1.0] - 2025-10-20
 
 ### Added
 - **Tool 5: search_by_practice** - Filter standards by Science and Engineering Practice (10 SEP values)
@@ -65,7 +65,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 100% backward compatibility verified (all 54 v1.0.1 baseline tests pass)
 - Package size: Optimized for 8 tools with minimal overhead
 
-## [1.0.1] - 01-19-2025
+## [1.0.1] - 2025-01-19
 
 ### Fixed
 - Remove duplicate domain enum values (6→3 domains) in search_by_domain tool
@@ -79,7 +79,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add `total` field to search_by_domain response for pagination context
 - Package size: 44.7 KB (60 files)
 
-## [1.0.0] - 01-19-2025
+## [1.0.0] - 2025-01-19
 
 ### Added
 - Initial release of NGSS MCP Server
