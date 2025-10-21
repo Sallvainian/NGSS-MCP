@@ -54,6 +54,7 @@ docs/v1.0-pm-handoff-package.md
 docs/v1.0-publication-plan.md
 docs/technical-decisions-template.md
 docs/npm-publishing-readiness.md
+docs/tech-spec-*.md
 docs/*.pdf
 claudedocs/
 
