@@ -72,7 +72,6 @@ AGENTS.md
 opencode.jsonc
 .bmad-core/
 scripts/fix-ocr-errors.ts
-scripts/validate-*.ts
 
 # MCP configuration (local testing)
 .mcp.json

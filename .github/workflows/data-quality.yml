@@ -1,0 +1,38 @@
+name: Data Quality Validation
+
+on:
+  pull_request:
+    paths:
+      - 'data/**/*.json'
+  push:
+    paths:
+      - 'data/**/*.json'
+    branches:
+      - main
+
+jobs:
+  validate-data-quality:
+    name: Validate NGSS Data Quality
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Run data quality validation
+        run: bun run scripts/validate-data-quality.ts
+
+      - name: Report validation results
+        if: failure()
+        run: |
+          echo "::error::Data quality validation failed!"
+          echo "::error::Please review the validation output above."
+          echo "::error::To fix OCR errors, run: bun run scripts/fix-ocr-errors.ts"
