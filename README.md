@@ -155,7 +155,7 @@ Add to your MCP configuration file:
   "mcpServers": {
     "ngss": {
       "command": "wsl",
-      "args": ["bash", "-ic", "npx -y ngss-mcp"]
+      "args": ["npx", "-y", "ngss-mcp"]
     }
   }
 }
