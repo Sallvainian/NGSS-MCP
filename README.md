@@ -121,7 +121,47 @@ npm install -g ngss-mcp
 - Node.js 18+ or Bun runtime
 - npm or bun package manager
 
-### Option B: Install via Smithery
+### Option B: Configure as MCP Server
+
+Add to your MCP configuration file:
+
+**macOS/Linux**:
+```json
+{
+  "mcpServers": {
+    "ngss": {
+      "command": "npx",
+      "args": ["-y", "ngss-mcp"]
+    }
+  }
+}
+```
+
+**Windows**:
+```json
+{
+  "mcpServers": {
+    "ngss": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "ngss-mcp"]
+    }
+  }
+}
+```
+
+**WSL**:
+```json
+{
+  "mcpServers": {
+    "ngss": {
+      "command": "wsl",
+      "args": ["bash", "-ic", "npx -y ngss-mcp"]
+    }
+  }
+}
+```
+
+### Option C: Install via Smithery
 
 Install directly from [Smithery](https://smithery.ai) to use with Claude Desktop or other MCP clients:
 
@@ -131,7 +171,7 @@ npx -y @smithery/cli install @sallvainian/ngss-mcp --client claude
 
 This will automatically configure the server in your Claude Desktop settings.
 
-### Option C: Install via Docker
+### Option D: Install via Docker
 
 Run the MCP server in a Docker container for isolated, reproducible deployments.
 
@@ -208,46 +248,6 @@ bun install  # or npm install
 
 # Build TypeScript
 bun run build  # or npm run build
-```
-
-### Install as MCP Server
-
-Add to your MCP configuration file:
-
-**macOS/Linux**:
-```json
-{
-  "mcpServers": {
-    "ngss": {
-      "command": "npx",
-      "args": ["-y", "ngss-mcp"]
-    }
-  }
-}
-```
-
-**Windows**:
-```json
-{
-  "mcpServers": {
-    "ngss": {
-      "command": "cmd",
-      "args": ["/c", "npx", "-y", "ngss-mcp"]
-    }
-  }
-}
-```
-
-**WSL**:
-```json
-{
-  "mcpServers": {
-    "ngss": {
-      "command": "wsl",
-      "args": ["bash", "-ic", "npx -y ngss-mcp"]
-    }
-  }
-}
 ```
 
 ## Available Tools
