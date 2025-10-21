@@ -113,7 +113,7 @@ Add to your MCP configuration file:
 Install directly from [Smithery](https://smithery.ai) to use with Claude Desktop or other MCP clients:
 
 ```bash
-npx -y @smithery/cli install @sallvainian/ngss-mcp --client claude
+npx -y @smithery/cli install @sallvainian/ngss-mcp
 ```
 
 This will automatically configure the server in your Claude Desktop settings.
