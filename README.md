@@ -130,6 +130,71 @@ npx -y @smithery/cli install @sallvainian/ngss-mcp --client claude
 
 This will automatically configure the server in your Claude Desktop settings.
 
+### Option C: Install via Docker
+
+Run the MCP server in a Docker container for isolated, reproducible deployments.
+
+**Using Docker Compose** (recommended):
+
+Create a `docker-compose.yml` file:
+
+```yaml
+version: '3.8'
+services:
+  ngss-mcp:
+    image: node:18-alpine
+    working_dir: /app
+    command: npx -y ngss-mcp
+    stdin_open: true
+    tty: true
+    volumes:
+      - ngss-data:/root/.npm
+volumes:
+  ngss-data:
+```
+
+Then run:
+
+```bash
+docker-compose up -d
+```
+
+**Using Dockerfile**:
+
+Create a `Dockerfile`:
+
+```dockerfile
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Install the MCP server globally
+RUN npm install -g ngss-mcp
+
+# Expose stdio for MCP protocol
+CMD ["ngss-mcp"]
+```
+
+Build and run:
+
+```bash
+docker build -t ngss-mcp .
+docker run -i ngss-mcp
+```
+
+**Claude Desktop Configuration for Docker**:
+
+```json
+{
+  "mcpServers": {
+    "ngss": {
+      "command": "docker",
+      "args": ["run", "-i", "--rm", "ngss-mcp"]
+    }
+  }
+}
+```
+
 ### Install from Source
 
 ```bash
