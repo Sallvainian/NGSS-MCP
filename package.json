@@ -1,6 +1,6 @@
 {
   "name": "ngss-mcp",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "MCP server with 8 tools for NGSS standards: complete 3D framework filtering (SEP, CCC, DCI) and intelligent unit planning. Supports Smithery.ai deployment.",
   "main": "dist/server/index.js",
   "module": "./dist/index.js",
