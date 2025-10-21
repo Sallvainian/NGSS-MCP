@@ -96,7 +96,7 @@ Error: Query must be at least 1 character
 
 ## Installation
 
-### Install from npm
+### Option A: Install from npm
 
 Install via npm:
 
@@ -116,9 +116,19 @@ Or install globally:
 npm install -g ngss-mcp
 ```
 
-### Prerequisites
+**Prerequisites**:
 - Node.js 18+ or Bun runtime
 - npm or bun package manager
+
+### Option B: Install via Smithery
+
+Install directly from [Smithery](https://smithery.ai) to use with Claude Desktop or other MCP clients:
+
+```bash
+npx -y @smithery/cli install @sallvainian/ngss-mcp --client claude
+```
+
+This will automatically configure the server in your Claude Desktop settings.
 
 ### Install from Source
 
@@ -136,23 +146,25 @@ bun run build  # or npm run build
 
 ### Install as MCP Server
 
-For Claude Desktop or other MCP clients, add to your MCP configuration:
+For Claude Desktop or other MCP clients, add to your MCP configuration file.
+
+**Claude Desktop Config Locations**:
+- **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+- **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+- **Linux/WSL**: `~/.config/Claude/claude_desktop_config.json`
+
+**Configuration** (works on all platforms):
 
 ```json
 {
   "mcpServers": {
     "ngss": {
-      "command": "node",
-      "args": ["/absolute/path/to/NGSS-MCP/dist/server/index.js"]
+      "command": "npx",
+      "args": ["-y", "ngss-mcp"]
     }
   }
 }
 ```
-
-**Claude Desktop Config Locations**:
-- **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
-- **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
-- **Linux**: `~/.config/Claude/claude_desktop_config.json`
 
 ## Available Tools
 
