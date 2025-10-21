@@ -54,6 +54,9 @@ docs/v1.0-pm-handoff-package.md
 docs/v1.0-publication-plan.md
 docs/technical-decisions-template.md
 docs/npm-publishing-readiness.md
+docs/tech-spec-*.md
+docs/story-approval-checklist.md
+docs/adr/
 docs/*.pdf
 claudedocs/
 
@@ -65,6 +68,11 @@ SERVER-IMPLEMENTATION.md
 tech-spec.md
 teachflow-backup.tar.gz
 .archive/
+AGENTS.md
+opencode.jsonc
+.bmad-core/
+scripts/fix-ocr-errors.ts
+scripts/validate-*.ts
 
 # MCP configuration (local testing)
 .mcp.json
