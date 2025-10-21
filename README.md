@@ -42,62 +42,6 @@ Model Context Protocol (MCP) server providing programmatic access to Next Genera
 - **Database Size**: 80 KB (optimized)
 - **Index Sizes**: 55 codes, 3 domains, 343 full-text keywords
 
-## Performance
-
-**Query Caching**:
-- **LRU Cache**: 100-entry capacity with intelligent eviction
-- **TTL Expiration**: 5-minute Time-To-Live for cached results
-- **Cache Hit Rate**: 79-90% in typical usage patterns
-- **Speed Improvement**: 60x faster average for cached queries
-  - `searchStandards`: 64x speedup (0.16ms → 0.002ms)
-  - Domain-filtered search: 10x speedup (0.04ms → 0.004ms)
-
-**Query Performance**:
-- Code lookups: <0.01ms (O(1))
-- Domain searches: <0.05ms
-- Keyword searches: 0.01-0.20ms (first query)
-- Cached queries: 0.002-0.005ms
-- Stress test: 100 lookups in 0.04ms (0.0004ms per lookup)
-
-**Performance Metrics API**:
-- Real-time query statistics via `getQueryMetrics()`
-- Cache statistics via `getCacheStats()`
-- Per-method performance tracking
-- Hit rate and eviction monitoring
-
-## Input Validation
-
-All query methods include comprehensive validation:
-
-**Validation Rules**:
-- **Standard Codes**: Must match format `MS-(PS|LS|ESS)\d+-\d+`
-- **Domains**: Must be one of: Physical Science, Life Science, Earth and Space Science
-- **Query Strings**: 1-500 characters, sanitized for security
-- **Limit Parameters**: 1-100 (positive integers only)
-- **Injection Protection**: Blocks suspicious patterns and control characters
-
-**Validation Errors**:
-Throw descriptive errors with clear messages:
-```javascript
-// Invalid standard code
-Error: Invalid standard code format. Expected: MS-{PS|LS|ESS}{number}-{number}
-
-// Invalid domain
-Error: Invalid domain. Must be one of: Physical Science, Life Science, Earth and Space Science
-
-// Invalid limit
-Error: Limit cannot exceed 100
-
-// Empty query
-Error: Query must be at least 1 character
-```
-
-**Benefits**:
-- Prevents malformed requests
-- Clear error messaging
-- Security hardening against injection
-- Input sanitization for all text fields
-
 ## Installation
 
 ### Option A: Install from npm
@@ -749,3 +693,59 @@ Contributions welcome! Please ensure:
 ## Support
 
 For issues, questions, or feature requests, please open an issue on the repository.
+
+## Performance
+
+**Query Caching**:
+- **LRU Cache**: 100-entry capacity with intelligent eviction
+- **TTL Expiration**: 5-minute Time-To-Live for cached results
+- **Cache Hit Rate**: 79-90% in typical usage patterns
+- **Speed Improvement**: 60x faster average for cached queries
+  - `searchStandards`: 64x speedup (0.16ms → 0.002ms)
+  - Domain-filtered search: 10x speedup (0.04ms → 0.004ms)
+
+**Query Performance**:
+- Code lookups: <0.01ms (O(1))
+- Domain searches: <0.05ms
+- Keyword searches: 0.01-0.20ms (first query)
+- Cached queries: 0.002-0.005ms
+- Stress test: 100 lookups in 0.04ms (0.0004ms per lookup)
+
+**Performance Metrics API**:
+- Real-time query statistics via `getQueryMetrics()`
+- Cache statistics via `getCacheStats()`
+- Per-method performance tracking
+- Hit rate and eviction monitoring
+
+## Input Validation
+
+All query methods include comprehensive validation:
+
+**Validation Rules**:
+- **Standard Codes**: Must match format `MS-(PS|LS|ESS)\d+-\d+`
+- **Domains**: Must be one of: Physical Science, Life Science, Earth and Space Science
+- **Query Strings**: 1-500 characters, sanitized for security
+- **Limit Parameters**: 1-100 (positive integers only)
+- **Injection Protection**: Blocks suspicious patterns and control characters
+
+**Validation Errors**:
+Throw descriptive errors with clear messages:
+```javascript
+// Invalid standard code
+Error: Invalid standard code format. Expected: MS-{PS|LS|ESS}{number}-{number}
+
+// Invalid domain
+Error: Invalid domain. Must be one of: Physical Science, Life Science, Earth and Space Science
+
+// Invalid limit
+Error: Limit cannot exceed 100
+
+// Empty query
+Error: Query must be at least 1 character
+```
+
+**Benefits**:
+- Prevents malformed requests
+- Clear error messaging
+- Security hardening against injection
+- Input sanitization for all text fields
